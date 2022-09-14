@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd69b16a2c5c89948947b1ffe8aa1abb, type: 3}
+  m_Name: B
+  m_EditorClassIdentifier: 
+  name: 
+  wordList:
+  - HARDLY
+  - REFLECT  
+  - CONVENIENT
+  - RARE
+  - ESSENTIAL
+  - SINK
+  - HURRY
+  - RELIABLE
+  - LIGHTNING
+  - ABSOLUTELY
+  - ACADEMIC
+  - RECALL
+  - AWKWARD
+  - VISION
+  - PITY
+  - DESERVED
+  - LAUNCH
+  - RELIEVED
+  - SWEAR
+  - STABLE
+  - PRIOR
+  - PITCH
+  - ABANDON
+  - ABSOLUTE
+  - ACCURATE
+  - ACCESS
+  - ACCOMMODATION
+  - ACCOUNT
+  - ACHIEVEMENT
+  - ADDITION
+  - ADMIRE
+  - ADMIT
+  - ADVANCED
+  - AFFORD
+  - AGENT
+  - AGREEMENT
+  - AHEAD
+  - AIM
+  - ALTERNATIVE
+  - ALCOHOLIC
+  - AMBITION
+  - ANALYSE
+  - ANNOUNCE
+  - ANNOYED
+  - APART
+  - APPLICATION
+  - APPOINTMENT
+  - APPRECIATE
+  - APPROXIMATELY
+  - ARRIVAL
+  - ASSIGNMENT
+  - ASSIST
+  - ATMOSPHERE
+  - ATTACH
+  - ATTITUDE
+  - ATTRACT
+  - AUTHORITY
+  - AVERAGE
+  definition:
+  - '[adv] almost no; almost not; almost none '
+  - '[verb] to show the image of somebody/something on the surface of something such as a mirror, water or glass'
+  - '[adj] useful, easy or quick to do; not causing problems'
+  - '[adj] not done, seen, happening, etc. very often'
+  - '[adj]  completely necessary; extremely important in a particular situation or for a particular activity'
+  - '[v] to go down below the surface or towards the bottom of a liquid or soft substance'
+  - '[v] to move or act quickly because there is not much time'
+  - '[adj]  that can be trusted to do something well; that you can rely on'
+  - '[n] a flash, or several flashes, of very bright light in the sky caused by electricity'
+  - '[adv] used to emphasize that something is completely true'
+  - '[adj] connected with education, especially studying in schools and universities...'
+  - '[v] to remember something'
+  - '[adj] making you feel embarrassed'
+  - '[n] the ability to see; the area that you can see from a particular position'
+  - '[n] used to show that you are disappointed about something'
+  - '[adj] it has been earned by what somebody has done or how they have behaved'
+  - '[v] to start an activity, especially an organized one'
+  - '[adj] feeling happy because something unpleasant has stopped or has not happened; showing this'
+  - '[v] to use rude or offensive language, usually because you are angry'
+  - '[adj] fixed or steady; not likely to move, change or fail'
+  - '[adj] happening or existing before something else or before a particular time'
+  - '[n] how high or low a sound is, especially a musical note'
+  - '[v] to leave somebody, especially somebody you are responsible for, with no intention of returning'
+  - '[adj] total and complete'
+  - '[adj] correct and true in every detail'
+  - '[n] the opportunity or right to use something or to see somebody/something'
+  - '[n]  a place to live, work or stay in'
+  - '[n] an arrangement that somebody has with a bank, etc. to keep money there, take some out, etc.'
+  - '[n] a thing that somebody has done successfully, especially using their own effort and skill'
+  - '[n] a thing that is added to something else'
+  - '[v] to respect somebody for what they have done or to respect their qualities'
+  - '[v] to agree, often unwillingly, that something is true'
+  - '[adj] having the most modern and recently developed ideas, methods, etc.'
+  - '[v] (usually used with can, could or be able to, especially in negative sentences or questions) to have enough money to be able to buy or do something'
+  - '[n] a person whose job is to act for, or manage the affairs of, other people in business, politics, etc.'
+  - '[n] an arrangement, a promise or a contract made with somebody'
+  - '[adv]  further forward in space or time; in front'
+  - '[v] to try or plan to achieve something'
+  - '[n] a thing that you can choose to do or have out of two or more possibilities'
+  - '[adj] connected with or containing alcohol'
+  - '[n] something that you want to do or achieve very much'
+  - '[v]  to examine the nature or structure of something, especially by separating it into its parts, in order to understand or explain it'
+  - '[v] to tell people something officially, especially about a decision, plans, etc.'
+  - '[adj] slightly angry'
+  - '[adv] separated by a distance, of space or time'
+  - '[n]  a formal (often written) request for something, such as a job, permission to do something or a place at a college or university'
+  - '[n] a formal arrangement to meet or visit somebody at a particular time, especially for a reason connected with their work'
+  - '[v] (not used in the progressive tenses) appreciate somebody/something to recognize the good qualities of somebody/something'
+  - '[adv] used to show that something is almost, but not completely, accurate or correct'
+  - '[n] an act of coming or being brought to a place'
+  - '[n] a task or piece of work that somebody is given to do, usually as part of their job or studies'
+  - '[v] to help somebody to do something'
+  - '[n] the air in a room or in a small space; the air around a place'
+  - '[v]  to fasten or join one thing to another'
+  - '[n] the way that you think and feel about somebody/something; the way that you behave towards somebody/something that shows how you think and feel'
+  - '[v] to make somebody/something come somewhere or take part in something'
+  - '[n] the power to give orders to people'
+  - '[adj] calculated by adding several amounts together, finding a total, and dividing the total by the number of amounts'
