@@ -15,7 +15,7 @@ MonoBehaviour:
   name: 
   wordList:
   - HARDLY
-  - REFLECT  
+  - REFLECT
   - CONVENIENT
   - RARE
   - ESSENTIAL
@@ -72,6 +72,119 @@ MonoBehaviour:
   - ATTRACT
   - AUTHORITY
   - AVERAGE
+  - AWARE
+  - BACKWARDS
+  - BAKE
+  - BALANCE
+  - BAN
+  - BASIS
+  - BATTLE
+  - BEAUTY
+  - BELIEF
+  - BEND
+  - BITE
+  - BLOCK
+  - BOMB
+  - BORDER
+  - BOTHER
+  - BRANCH
+  - BRAND
+  - BRAVE
+  - BREATH
+  - BREATHE
+  - BRIDE
+  - BUBBLE
+  - BURY
+  - CALM
+  - CAMPAIGN
+  - CAMPUS
+  - CANDIDATE
+  - CARELESS
+  - CATEGORY
+  - CEILING
+  - CELEBRATION
+  - CEREMONY
+  - CHALLENGE
+  - CHANNEL
+  - ACKNOWLEDGE
+  - ACQUIRE
+  - ADAPT
+  - ADOPT
+  - AFFAIR
+  - AGENDA
+  - ALTER
+  - ANGLE
+  - ANNUAL
+  - APPARENT
+  - ANXIOUS
+  - APPEAL
+  - APPROACH
+  - APPROPRIATE
+  - ARTIFICIAL
+  - ASHAMED
+  - ATTEMPT
+  - BEG
+  - BENT
+  - BLAME
+  - BUNCH
+  - BUSH
+  - BOND
+  - BLIND
+  - BRIEF
+  - BROAD
+  - CABLE
+  - CAPABLE
+  - CAPACITY
+  - CAPTURE
+  - CAST
+  - CHAIN
+  - CIRCUMSTANCE
+  - CITE
+  - CIVIL
+  - CLASSIC
+  - COLLAPSE
+  - COMBINATION
+  - COMFORT
+  - CONCEPT
+  - COURAGE
+  - CONSISTENT
+  - CONFLICT
+  - CRITIC
+  - DEBATE
+  - DEBT
+  - DECENT
+  - DECLINE
+  - DECREASE
+  - DEFEAT
+  - DEFENCE
+  - DELIBERATE
+  - DELIGHTED
+  - DEMONSTRATE
+  - DENY
+  - DEPTH
+  - DETECT
+  - DISC
+  - DISCIPLINE
+  - DISMISS
+  - DOMESTIC
+  - DRAFT
+  - EMERGE
+  - EFFICIENT
+  - EDITION
+  - EMPHASIZE
+  - ENABLE
+  - ENCOUNTER
+  - ENHANCE
+  - ENGAGE
+  - ENTHUSIASM
+  - ENTIRE
+  - ESTABLISH
+  - ESTATE
+  - EVALUATE
+  - EXTENT
+  - EXPOSE
+  - ESTIMATE
+  - FACILITY
   definition:
   - '[adv] almost no; almost not; almost none '
   - '[verb] to show the image of somebody/something on the surface of something such as a mirror, water or glass'
@@ -83,7 +196,7 @@ MonoBehaviour:
   - '[adj]  that can be trusted to do something well; that you can rely on'
   - '[n] a flash, or several flashes, of very bright light in the sky caused by electricity'
   - '[adv] used to emphasize that something is completely true'
-  - '[adj] connected with education, especially studying in schools and universities...'
+  - '[adj] connected with education, especially studying in schools and universities'
   - '[v] to remember something'
   - '[adj] making you feel embarrassed'
   - '[n] the ability to see; the area that you can see from a particular position'
@@ -107,7 +220,7 @@ MonoBehaviour:
   - '[v] to agree, often unwillingly, that something is true'
   - '[adj] having the most modern and recently developed ideas, methods, etc.'
   - '[v] (usually used with can, could or be able to, especially in negative sentences or questions) to have enough money to be able to buy or do something'
-  - '[n] a person whose job is to act for, or manage the affairs of, other people in business, politics, etc.'
+  - '[n] a person whose job is to act for, or manage the affairs of, other peoplein business, politics, etc.'
   - '[n] an arrangement, a promise or a contract made with somebody'
   - '[adv]  further forward in space or time; in front'
   - '[v] to try or plan to achieve something'
@@ -131,3 +244,116 @@ MonoBehaviour:
   - '[v] to make somebody/something come somewhere or take part in something'
   - '[n] the power to give orders to people'
   - '[adj] calculated by adding several amounts together, finding a total, and dividing the total by the number of amounts'
+  - '[adj]  knowing or realizing something' 
+  - '[adv] towards a place or position that is behind'
+  - '[v] to cook food in an oven without extra fat or liquid; to be cooked in this way'
+  - '[n] a situation in which different things exist in equal, correct or good amounts'
+  - '[v] o decide or say officially that something is not allowed'
+  - '[n] the way things are organized or arranged; how often something happens'
+  - '[n]  a fight between armies, ships or planes, especially during a war; a violent fight between groups of people'
+  - '[n] the quality of giving pleasure to the senses or to the mind'
+  - '[n] a strong feeling that something/somebody exists or is true; confidence that something/somebody is good or right'
+  - '[v] (especially of somebody’s body or head) to lean, or make something lean, in a particular direction'
+  - '[v] to use your teeth to cut into or through something'
+  - '[n] a large piece of a solid material that is square or rectangular in shape and usually has flat sides'
+  - '[n] a weapon designed to explode at a particular time or when it is dropped or thrown'
+  - '[n] the line that divides two countries or areas; the land near this line'
+  - '[v] (often used in negative sentences and questions) to spend time and/or energy doing something'
+  - '[n] a part of a tree that grows out from the main stem and on which leaves, flowers and fruit grow'
+  - '[n] a type of product, service, etc. made or offered by a particular company under a particular name'
+  - '[adj] (of a person) willing to do things that are difficult, dangerous or painful; not afraid'
+  - '[n]  the air that you take into your lungs and send out again'
+  - '[v] to take air into your lungs and send it out again through your nose or mouth'
+  - '[n] a woman on her wedding day, or just before or just after it'
+  - '[n] a ball of air or gas in a liquid, or a ball of air inside a solid substance such as glass'
+  - '[v] to place a dead body in the ground'
+  - '[adj] not excited, nervous or upset'
+  - '[n] a series of planned activities that are intended to achieve a particular social, commercial or political aim'
+  - '[n] the buildings of a university or college and the land around them'
+  - '[n] a person who is trying to be elected or is applying for a job'
+  - '[adj] not giving enough attention and thought to what you are doing, so that you make mistakes'
+  - '[n] a  group of people or things with particular features in common'
+  - '[n] the top inside surface of a room'
+  - '[n] a special event that people organize in order to celebrate something'
+  - '[n] a public or religious occasion that includes a series of formal or traditional actions'
+  - '[n] a new or difficult task that tests somebody’s ability and skill'
+  - '[n] a method or system that people use to get information, to communicate, or to send something somewhere'
+  - '[v] to accept that something is true'
+  - '[v] to gain something by your own efforts, ability or behaviour'
+  - '[v]  to change your behaviour in order to deal more successfully with a new situation'
+  - '[v] to take somebody elses child into your family and become its legal parent(s)'
+  - '[n] events that are of public interest or political importance'
+  - '[n] a list of items to be discussed at a meeting'
+  - '[v] to become different; to make somebody/something different'
+  - '[n] the space between two lines or surfaces that join, measured in degrees'
+  - '[adj] happening or done once every year'
+  - '[adj] easy to see or understand'
+  - '[adj]  feeling worried or nervous'
+  - '[n] a deeply felt request for money, help or information that is needed immediately, especially one made by a charity or by the police'
+  - '[n] a way of dealing with somebody/something; a way of doing or thinking about something such as a problem or a task'
+  - '[adj] suitable, acceptable or correct for the particular circumstances'
+  - '[adj] made or produced to copy something natural; not real'
+  - '[adj] feeling shame or feeling embarrassed about somebody/something or because of something you have done'
+  - '[n] an act of trying to do something, especially something difficult, often with no success'
+  - '[v] to ask somebody for something especially in an anxious way because you want or need it very much'
+  - '[adj] not able to stand up straight, usually as a result of being old or ill; not straight'
+  - '[v] to think or say that somebody/something is responsible for something bad'
+  - '[n]  a number of things of the same type which are growing or fastened togethe'
+  - '[n] a plant that grows thickly with several hard stems coming up from the root'
+  - '[n] something that forms a connection between people or groups, such as a feeling of friendship or shared ideas and experiences'
+  - '[adj]  not able to see'
+  - '[adj] lasting only a short time; short'
+  - '[adj] including a great variety of people or things; wide'
+  - '[n] a set of wires, covered in plastic or rubber, that carries electricity, phone signals, etc.'
+  - '[adj] having the ability or qualities necessary for doing something'
+  - '[n] the number of things or people that a container or space can hold'
+  - '[v] to catch a person or an animal and keep them as a prisoner or shut them in a space that they cannot escape from'
+  - '[v]  to choose actors to play the different parts in a film, play, etc.; to choose an actor to play a particular role'
+  - '[n] a series of connected metal rings, used for pulling or fastening things; a length of chain used for a particular purpose'
+  - '[n]  the conditions and facts that are connected with and affect a situation, an event or an action'
+  - '[v] to mention something as a reason or an example, or in order to support what you are saying'
+  - '[adj] connected with the people who live in a country'
+  - '[adj] accepted or deserving to be accepted as one of the best or most important of its kind'
+  - '[v] to fall down or fall in suddenly, often after breaking apart'
+  - '[n] two or more things joined or mixed together to form a single unit'
+  - '[n] the state of being physically relaxed and free from pain; the state of having a pleasant life, with everything that you need'
+  - '[n] an idea or a principle that is connected with something abstract'
+  - '[n] the ability to do something dangerous, or to face pain or opposition, without showing fear'
+  - '[adj] always behaving in the same way, or having the same opinions, standards, etc.'
+  - '[n] a situation in which people, groups or countries disagree strongly or are involved in a serious argument'
+  - '[n] a person who expresses opinions about the good and bad qualities of books, music, etc.'
+  - '[n] a formal discussion of an issue at a public meeting or in a parliament. In a debate two or more speakers express opposite views and then there is often a vote on the issue.'
+  - '[n] a sum of money that somebody owes'
+  - '[adj] of a good enough standard or quality'
+  - '[v] to become smaller, fewer, weaker, etc.'
+  - '[v] o become smaller in size, number, etc.; to make something smaller in size, number, etc.'
+  - '[v] to win against somebody in a war, competition, sports game, etc.'
+  - '[n] the act of protecting somebody/something from attack, criticism, etc.'
+  - '[adj] done on purpose rather than by accident'
+  - '[adj] very pleased'
+  - '[v] to show something clearly by giving proof or evidence'
+  - '[v]  to say that something is not true'
+  - '[n] the distance from the top or surface to the bottom of something; a particular distance down from the surface of something'
+  - '[v] to discover or notice something, especially something that is not easy to see, hear, etc.'
+  - '[n] a thin flat round object'
+  - '[n]  the practice of training people to obey rules and orders and punishing them if they do not; the controlled behaviour or situation that is the result of this training'
+  - '[v] to decide that somebody/something is not important and not worth thinking or talking about'
+  - '[adj] of or inside a particular country; not foreign or international'
+  - '[n] a rough written version of something that is not yet in its final form'
+  - '[v] to move out of or away from something and become possible to see'
+  - '[adj] doing something in a good, careful and complete way with no waste of time, money or energy'
+  - '[n]  the form in which a book, newspaper, etc. is published'
+  - '[v] to give special importance to something'
+  - '[v] to make it possible for somebody/something to do something'
+  - '[v] to experience something, especially something unpleasant or difficult, while you are trying to do something else'
+  - '[v] to increase or further improve the good quality, value or status of somebody/something'
+  - '[v] to succeed in attracting and keeping somebody’s attention and interest'
+  - '[n] a strong feeling of excitement and interest in something and a desire to become involved in it'
+  - '[adj] including everything, everyone or every part'
+  - '[v] to start or create an organization, a system, etc. that is meant to last for a long time'
+  - '[n] an area of land with a lot of houses or factories of the same type on it'
+  - '[v] to form an opinion of the amount, value or quality of something after thinking about it carefully'
+  - '[n] how large, important, serious, etc. something is'
+  - '[v] to show something that is usually hidden'
+  - '[v] to form an idea of the cost, size, value etc. of something, but without calculating it exactly'
+  - '[n] buildings, services, equipment, etc. that are provided for a particular puspose'
