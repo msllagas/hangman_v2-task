@@ -185,6 +185,89 @@ MonoBehaviour:
   - EXPOSE
   - ESTIMATE
   - FACILITY
+  - CHAPTER
+  - CHARGE
+  - CHEAT
+  - YARD
+  - YOUTH
+  - CONSUME
+  - CONSEQUENCE
+  - CONTENT
+  - COTTAGE
+  - CURRENCY
+  - CURRENT
+  - CUSTOM
+  - DAMAGE
+  - DECADE
+  - DEFINITION
+  - DESPITE
+  - DESTINATION
+  - DETERMINED
+  - DEVELOPMENT
+  - DIFFICULTY
+  - DISADVANTAGE
+  - DISAPPOINTING
+  - DOUBT
+  - DUE
+  - DUTY
+  - EDGE
+  - ECONOMY
+  - EFFORT
+  - ELECTION
+  - ELEMENT
+  - EMBARRASS
+  - ENCOURAGE
+  - ENGAGED
+  - ENGINEERING
+  - ENTERTAIN
+  - EVENTUALLY
+  - EXCEPT
+  - EXCHANGE
+  - EXHIBITION
+  - EXPEDITION
+  - EXPAND
+  - EXPORT
+  - EXPERIENCED
+  - FAILURE
+  - FAULT
+  - FELLOW
+  - FIRM
+  - FORMER
+  - FREQUENCY
+  - FUND
+  - FUNDAMENTAL
+  - FUEL
+  - GAIN
+  - GANG
+  - GENRE
+  - GOVERN
+  - GRAB
+  - GRAND
+  - GRANT
+  - HANDLE
+  - HEAVEN
+  - HEEL
+  - HESITATE
+  - HOLLOW
+  - HONOUR
+  - HOUSEHOLD
+  - HUMOUR
+  - HUNTING
+  - HUMOROUS
+  - ILLUSTRATE
+  - IMAGINATION
+  - IMPATIENT
+  - IMPLY
+  - INCIDENT
+  - INCOME
+  - INFECTION
+  - INFORM
+  - INITIAL
+  - INSIGHT
+  - INSIST
+  - INSPIRE
+  - INSTALL
+  - INSTITUTION
   definition:
   - '[adv] almost no; almost not; almost none '
   - '[verb] to show the image of somebody/something on the surface of something such as a mirror, water or glass'
@@ -347,7 +430,7 @@ MonoBehaviour:
   - '[v] to make it possible for somebody/something to do something'
   - '[v] to experience something, especially something unpleasant or difficult, while you are trying to do something else'
   - '[v] to increase or further improve the good quality, value or status of somebody/something'
-  - '[v] to succeed in attracting and keeping somebody’s attention and interest'
+  - '[v] to succeed in attracting and keeping somebodys attention and interest'
   - '[n] a strong feeling of excitement and interest in something and a desire to become involved in it'
   - '[adj] including everything, everyone or every part'
   - '[v] to start or create an organization, a system, etc. that is meant to last for a long time'
@@ -356,4 +439,87 @@ MonoBehaviour:
   - '[n] how large, important, serious, etc. something is'
   - '[v] to show something that is usually hidden'
   - '[v] to form an idea of the cost, size, value etc. of something, but without calculating it exactly'
-  - '[n] buildings, services, equipment, etc. that are provided for a particular puspose'
+  - '[n] buildings, services, equipment, etc. that are provided for a particular purpose'
+  - '[n]  a separate section of a book, usually with a number or title'
+  - '[n] the amount of money that somebody asks for goods and services'
+  - '[v] to trick somebody or make them believe something that is not true'
+  - '[n] a piece of land next to or around your house where you can grow flowers, fruit, vegetables, etc., usually with a lawn'
+  - '[n] the time of life when a person is young, especially the time before a child becomes an adult'
+  - '[v] to use something, especially fuel, energy or time'
+  - '[n]  a result of something that has happened, especially an unpleasant result'
+  - '[n] the things that are contained in something'
+  - '[n] a small house, especially in the country a thatched cottage'
+  - '[n]  the system of money that a country uses'
+  - '[adj] happening now; of the present time'
+  - '[n] an accepted way of behaving or of doing things in a society or a community'
+  - '[n]  physical harm caused to something which makes it less attractive, useful or valuable'
+  - '[n] a period of ten years, especially a continuous period, such as 1910–1919 or 2000–2009'
+  - '[n] an explanation of the meaning of a word or phrase, especially in a dictionary'
+  - '[prep] used to show that something happened or is true although something else might have happened to prevent it'
+  - '[n] a place to which somebody/something is going or being sent'
+  - '[adj] having made a definite decision to do something and not letting anyone prevent you'
+  - '[n]  the steady growth of something so that it becomes more advanced, stronger, etc.'
+  - '[n] a problem; a thing or situation that causes problems'
+  - '[v] to cause problems and tend to stop somebody/something from succeeding or making progress'
+  - '[adj] not as good, successful, etc. as you had hoped; making you feel disappointed'
+  - '[n] a feeling of being uncertain about something or not believing something'
+  - '[adj] caused by somebody/something; because of somebody/something'
+  - '[n]  something that you feel you have to do because it is your moral or legal responsibility'
+  - '[n] the outside limit of an object, a surface or an area; the part furthest from the centre'
+  - '[n] the relationship between production, trade and the supply of money in a particular country or region'
+  - '[n] an attempt to do something especially when it is difficult to do'
+  - '[n]  the process of choosing a person or a group of people for a position, especially a political position, by voting'
+  - '[n] a necessary or typical part of something; one of several parts that something contains'
+  - '[v] to make somebody feel shy, uncomfortable or ashamed, especially in a social situation'
+  - '[v] to give somebody support, courage or hope'
+  - '[adj] having agreed to marry somebody'
+  - '[n] the activity of applying scientific knowledge to the design, building and control of machines, roads, bridges, electrical equipment, etc.'
+  - '[v] to interest somebody or make somebody laugh in order to please them'
+  - '[adv] at the end of a period of time or a series of events'
+  - '[prep] used before you mention the only thing or person about which a statement is not true'
+  - '[n] an act of giving something to somebody or doing something for somebody and receiving something in return'
+  - '[n]  a collection of things, for example works of art, that are shown to the public'
+  - '[n] an organized journey with a particular purpose, especially to find out about a place that is not well known'
+  - '[v] to become greater in size, number or importance; to make something greater in size, number or importance'
+  - '[n]  the selling and transporting of goods to another country a ban on the export of live cattle'
+  - '[adj] having knowledge or skill in a particular job or activity'
+  - '[n] lack of success in doing or achieving something'
+  - '[n] the responsibility for something wrong that has happened or been done'
+  - '[adj] used to describe somebody who is the same as you in some way, or in the same situation'
+  - '[n] a business or company such as for law and accounting'
+  - '[adj] that existed in earlier times'
+  - '[n] the rate at which something happens or is repeated'
+  - '[n]  an amount of money that has been saved or has been made available for a particular purpose'
+  - '[adj] serious and very important; affecting the most central and important parts of something'
+  - '[n] any material that produces heat or power, usually when it is burnt'
+  - '[v] to obtain or win something, especially something that you need or want'
+  - '[n] an organized group of criminals'
+  - '[n] a particular type or style of literature, art, film or music that you can recognize because of its special features'
+  - '[v] to legally control a country or its people and be responsible for introducing new laws, organizing public services, etc.'
+  - '[v] to take or hold somebody/something with your hand suddenly or roughly'
+  - '[adj] impressive and large or important'
+  - '[v] to agree to give somebody what they ask for, especially formal or legal permission to do something'
+  - '[v]  to deal with a situation, a person, an area of work or a strong emotion'
+  - '[n] a place or situation in which you are very happy'
+  - '[n] the back part of the foot below the ankle'
+  - '[v] to be slow to speak or act because you feel uncertain or nervous'
+  - '[adj] having a hole or empty space inside'
+  - '[n] great respect for somebody'
+  - '[n] all the people living together in a house or flat'
+  - '[n] the quality in something that makes it funny; the ability to laugh at things that are funny'
+  - '[n] going after and killing wild animals as a sport or for food'
+  - '[adj] funny; showing a sense of humour'
+  - '[v] to use pictures, photographs, diagrams, etc. in a book, etc.'
+  - '[n] the ability to create pictures in your mind; the part of your mind that does this'
+  - '[adj] annoyed by somebody/something, especially because you have to wait for a long time'
+  - '[v]  to suggest that something is true or that you feel or think something, without saying so directly'
+  - '[n] something that happens, especially something unusual or unpleasant'
+  - '[n] the money that a person, a region, a country, etc. earns from work, from investing money, from business, etc.'
+  - '[n] the act or process of causing or getting a disease'
+  - '[v] to tell somebody about something, especially in an official way'
+  - '[adj] happening at the beginning; first'
+  - '[n] the ability to see and understand the truth about people or situations'
+  - '[v]  to demand that something happen or that somebody agree to do something'
+  - '[v] to give somebody the desire, confidence or enthusiasm to do something well'
+  - '[v] to put a new program onto a computer'
+  - '[n] a large important organization that has a particular purpose, for example a university or bank'
