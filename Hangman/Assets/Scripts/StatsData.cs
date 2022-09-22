@@ -13,7 +13,7 @@ public class StatsData
     public float winRatio;
     public int fastestTime;
 
-    public int points;
+    //public int points;
     public StatsData ( Stats statsdata )
     {
         totalWins = statsdata.totalWins;

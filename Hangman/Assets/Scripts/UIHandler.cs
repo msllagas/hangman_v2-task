@@ -22,8 +22,8 @@ public class UIHandler : MonoBehaviour
     [Header("STATS")] // 44
     public TMP_Text statsText; // 44
     public Stats saveFile; // 44
-    [Header("POINTS")]
-    public TMP_Text pointsText;
+/*    [Header("POINTS")]
+    public TMP_Text pointsText;*/
     [Header("AUDIO")]
     public AudioClip winnerSound;
     public AudioClip backgroundSound;
@@ -49,7 +49,7 @@ public class UIHandler : MonoBehaviour
         UpdateStatsText();
         //Load();
         LoadBGMSession();
-        UpdatePoints();
+        //UpdatePoints();
 
     } // 45
 
@@ -91,11 +91,11 @@ public class UIHandler : MonoBehaviour
             "" + statsList.winRatio + "%\n" +
             "" + statsList.fastestTime + "s\n"; 
     } // 45
-    void UpdatePoints()
+/*    void UpdatePoints()
     {
         StatsData statsList = SaveSystem.LoadStats();
         pointsText.text = "" + statsList.points;
-    }
+    }*/
 
     void BackGroundMusic()
     {
