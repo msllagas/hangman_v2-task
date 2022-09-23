@@ -217,6 +217,103 @@ MonoBehaviour:
   - WIZARDRY
   - WUNDERKIND
   - ZENITH
+  - ABSURD
+  - ACCUMULATE
+  - ACQUISITION
+  - ACTIVIST
+  - ADHERE
+  - AESTHETIC
+  - AFTERMATH
+  - BOUNDARY
+  - BREACH
+  - BUREAUCRACY
+  - CARGO
+  - CATTLE
+  - CHRONIC
+  - COCKTAIL
+  - CONQUER
+  - CYNICAL
+  - DEFAULT
+  - DEPOSIT
+  - DILEMMA
+  - DISCRIMINATION
+  - EPIDEMIC
+  - EXILE
+  - FOREIGNER
+  - FUNERAL
+  - GUERRILLA
+  - HARASSMENT
+  - INDIGENOUS
+  - INFLUENTIAL
+  - KINGDOM
+  - LITERACY
+  - MANDATORY
+  - NEWSLETTER
+  - NOMINEE
+  - PIONEER
+  - PLEDGE
+  - CRISP
+  - CYCLONE
+  - DELUGE
+  - GUST
+  - AZURE
+  - AUBURN
+  - ALBINO
+  - ALLURING
+  - BEWITCHING
+  - BLOTCH
+  - BOUFFANT
+  - CADAVEROUS
+  - CALLUS
+  - ABOMINABLE
+  - ACRIMONIOUS
+  - ADRENALINE
+  - BLITHE
+  - BOGGLE
+  - BOREDOM
+  - CONTROVERSIAL
+  - CRESTFALLEN
+  - DEJECTED
+  - DROWSY
+  - FLABBERGASTED
+  - FLINCH
+  - GRIEVE
+  - GUZZLE
+  - HOSTILE
+  - HYPERVENTILATE
+  - IDYLL
+  - ILLUMINATE
+  - INFATUATED
+  - LAMENT
+  - LOATHSOME
+  - MONOTONOUS
+  - PARANOIA
+  - PETRIFY
+  - SEETHE
+  - TWINKLE
+  - VEXED
+  - WEARY
+  - WHIRL
+  - LICENSE
+  - NOTORIOUS
+  - BURDEN
+  - COMPROMISE
+  - SHED
+  - REVELATION
+  - STRAIGHTFORWARD
+  - COINCIDE
+  - HUMBLE
+  - SUSTAIN
+  - SWING
+  - SYNDROME
+  - TEMPT
+  - TACTIC
+  - TENANT
+  - TENDER
+  - TENURE
+  - TERMINATE
+  - TERRAIN
+  - TERRIFIC
   definition:
   - '[v] to give somebody official permission to do, own, or use something'
   - '[adj] well known for being bad'
@@ -292,6 +389,26 @@ MonoBehaviour:
   - '[n] a tube that carries blood through the body of a person or an animal, or liquid through the parts of a plant'
   - '[n] a person who has a lot of experience in a particular area or activity'
   - '[adj] that can be done; that will be successful'
+  - '[v] to give somebody official permission to do, own, or use something'
+  - '[adj] well known for being bad'
+  - '[n] a duty, responsibility, etc. that causes worry, difficulty or hard work'
+  - '[v]  to give up some of your demands in order to reach an agreement after disagreeing with somebody'
+  - '[v] to take off a piece of clothing'
+  - '[n] a fact that people are made aware of, especially one that has been secret and is surprising'
+  - '[adj] easy to do or to understand; not complicated'
+  - '[v]  (of two or more events) to take place at the same time'
+  - '[adj] showing you do not think that you are as important as other people'
+  - '[v] to provide enough of what somebody/something needs in order to live or exist'
+  - '[v] to move backwards or forwards or from side to side while hanging from a fixed point; to make something do this'
+  - '[n] a set of physical conditions that show you have a particular disease or medical problem'
+  - '[v] to attract somebody or make somebody want to do or have something, even if they know it is wrong'
+  - '[n] the particular method you use to achieve something'
+  - '[n] a person who pays rent for the use of a room, building, land, etc. to the person who owns it'
+  - '[adj] kind, gentle and loving'
+  - '[n] the period of time when somebody holds an important job, especially a political one; the act of holding an important job'
+  - '[v] to end; to make something end'
+  - '[n] used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.'
+  - '[adj] excellent; wonderful; very large; very great'
   - '[adj] full of life and energy'
   - '[n] behaviour that is evil or immoral; a quality in somebody’s character that is evil or immoral'
   - '[adj] violent and cruel'
@@ -421,3 +538,80 @@ MonoBehaviour:
   - '[n] a very impressive and clever achievement; great skill'
   - '[n] a person who is very successful at a young age'
   - '[n] the highest point that the sun or moon reaches in the sky, directly above you'
+  - '[adj] extremely silly; not logical and sensible'
+  - '[v]  to gradually get more and more of something over a period of time'
+  - '[n] the act of getting something, especially knowledge, a skill, etc.'
+  - '[n] a person who works to achieve political or social change, especially as a member of an organization with particular aims'
+  - '[v]  to stick to something'
+  - '[adj] connected with beauty and art and the understanding of beautiful things'
+  - '[n] ​the situation that exists as a result of an important (and usually unpleasant) event, especially a war, an accident, etc.'
+  - '[n] a real or imagined line that marks the limits or edges of something and separates it from other things or places; a dividing line'
+  - '[n] a failure to do something that must be done by law'
+  - '[n]  the system of official rules and ways of doing things that a government or an organization has, especially when these seem to be too complicated'
+  - '[n] the goods carried in a ship, an aircraft or a motor vehicle'
+  - '[n] enlarge imagecows and bulls that are kept as farm animals for their milk or meat'
+  - '[adj] (of a disease) lasting for a long time; difficult to cure'
+  - '[n] a drink usually made from a mixture of one or more strong alcoholic drinks and fruit juice. It can also be made without alcohol.'
+  - '[v] to take control of a country or city and its people by force'
+  - '[adj] believing that people only do things to help themselves rather than for good or honest reasons'
+  - '[n] what happens or appears if you do not make any other choice or change, especially in a computer program'
+  - '[n] a sum of money that is paid into a bank account'
+  - '[n] a situation that makes problems, often one in which you have to make a very difficult choice between things of equal importance'
+  - '[n]  the practice of treating somebody or a particular group in society less fairly than others'
+  - '[n] a large number of cases of a particular disease or medical condition happening at the same time in a particular community'
+  - '[n] the state of being sent to live in another country that is not your own, especially for political reasons or as a punishment'
+  - '[n] a person who comes from a different country'
+  - '[n] a ceremony, often a religious one, for burying or cremating a dead person'
+  - '[n] a member of a small group of soldiers who are not part of an official army and who fight against official soldiers, usually to try to change the government'
+  - '[n] the act of annoying or worrying somebody by putting pressure on them or saying or doing unpleasant things to them'
+  - '[adj]  coming from a particular place and having lived there for a long time before other people came there; relating to, belonging to or developed by these people'
+  - '[adj] having a lot of influence on somebody/something'
+  - '[n] a country that has a king or queen as head of state '
+  - '[n]  the ability to read and write'
+  - '[adj] required by law'
+  - '[n] a report containing news of the activities of a club or organization that is sent regularly to all its members'
+  - '[n] a person who has been formally suggested for a job, a prize, etc.'
+  - '[n] a person who is the first to study and develop a particular area of knowledge, culture, etc. that other people then continue to develop'
+  - '[v] to formally promise to give or do something'
+  - '[adj] (of paper or cloth) fresh and clean; new and slightly stiff without any folds in it'
+  - '[n] a weather condition in which the pressure of the air becomes lower, often causing wind and rain'
+  - '[n] a severe flood; a sudden very heavy fall of rain'
+  - '[v] (of the wind) to suddenly blow very hard'
+  - '[adj] bright blue in colour like the sky'
+  - '[adj]​(of hair) red-brown in colour'
+  - '[n] a person or an animal that is born with no pigment in the hair or skin, which are white, or in the eyes, which are pink'
+  - '[adj] attractive and exciting in a mysterious way'
+  - '[adj] so beautiful or interesting that you cannot think about anything else'
+  - '[n] a mark, usually not regular in shape, on skin, plants, material, etc.'
+  - '[adj] (of a persons hair) in a style that raises it up and back from the head in a high round shape'
+  - '[adj] (of a person) extremely pale, thin and looking ill'
+  - '[n] an area of thick hard skin on a hand or foot, usually caused by rubbing'
+  - '[adj] extremely unpleasant and causing horror'
+  - '[adj] (of an argument, etc.) angry and full of strong bitter feelings and words'
+  - '[n] a substance produced in the body when you are excited, afraid or angry. It makes the heart beat faster and increases your energy and ability to move quickly.'
+  - '[adj] showing you do not care or are not anxious about what you are doing'
+  - '[v] to be slow to do or accept something because you are surprised or shocked by it'
+  - '[n] he state of feeling bored; the fact of being very boring'
+  - '[adj] causing a lot of angry public discussion and disagreement'
+  - '[adj] sad and disappointed because you have failed and you did not expect to'
+  - '[adj] unhappy and disappointed'
+  - '[adj] tired and wanting to sleep'
+  - '[adj] extremely surprised and/or shocked'
+  - '[v] to make a sudden movement with your face or body as a result of pain, fear, surprise, etc.'
+  - '[v] to feel very sad, especially because somebody has died'
+  - '[v]  to drink something quickly and in large amounts.'
+  - '[adj] making it difficult for something to happen or to be achieved'
+  - '[v] to breathe too quickly because you are very frightened or excited'
+  - '[n] a happy and peaceful place, event or experience, especially one connected with the countryside'
+  - '[v] to shine light on something'
+  - '[adj]  having a very strong feeling of love or attraction for somebody/something so that you cannot think clearly and in a sensible way'
+  - '[v] to have or express very sad feelings about somebody/something'
+  - '[adj] extremely unpleasant; disgusting'
+  - '[adj] never changing and therefore boring'
+  - '[n] the belief that other people dislike or want to harm you, when there is no evidence or reason for this'
+  - '[v] to make somebody feel extremely frightened'
+  - '[v] to be extremely angry about something but to try not to show other people how angry you are'
+  - '[v] to shine with a light that keeps changing from bright to pale to bright again'
+  - '[adj] a problem that is difficult to deal with'
+  - '[adj] very tired, especially after you have been working hard or doing something for a long time'
+  - '[v]  to move, or make somebody/something move, around quickly in a circle or in a particular direction'
