@@ -917,12 +917,83 @@ MonoBehaviour:
   settingsPanel: {fileID: 0}
   hintPanel: {fileID: 0}
   statsText: {fileID: 1762805015}
-  pointsText: {fileID: 0}
   winnerSound: {fileID: 0}
   backgroundSound: {fileID: 0}
   gameOverSound: {fileID: 0}
   clickSound: {fileID: 0}
   audioSource: {fileID: 0}
+  TimeonTaskshort:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TimeonTaskmedium:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TimeonTasklong:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NumRepeatTaskLow:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NumRepeatTaskMed:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NumRepeatTaskHigh:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PerformanceLow:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PerformanceMid:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PerformanceHigh:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NumHelpRequestlow:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NumHelpRequestmed:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NumHelpRequesthigh:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   bgmSlider: {fileID: 0}
   image: {fileID: 0}
 --- !u!4 &271535053
@@ -3681,8 +3752,10 @@ MonoBehaviour:
 
     Win Rate:
 
-    Fastest
-    Time:'
+    Motivation
+    Level:
+
+    Central Tendency:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37019bee008ca2c4c85f238c474340b7, type: 2}
   m_sharedMaterial: {fileID: 8973214066790018233, guid: 37019bee008ca2c4c85f238c474340b7, type: 2}

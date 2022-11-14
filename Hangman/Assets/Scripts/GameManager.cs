@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     bool gameOver; // 25
     [Header("Hints")] // 27
     [Space]
-    public int  maxHints = 3; // 27
+    public int maxHints = 3; // 27
     [Header("Mistakes")] // 32
     [Space]
     public Animator[] petalList;
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
             if (currentMistakes == maxMistakes) // 32
             {
                 // Debug.Log("Lost Game");
-                UIHandler.instance.LoseCondition(playTime); // 38
+                UIHandler.instance.LoseCondition(playTime, currentMistakes, maxHints); // 38
                 gameOver = true;
                 
                 return;
@@ -131,7 +131,7 @@ public class GameManager : MonoBehaviour
         if (gameOver) // 25
         {
             // show ui
-            UIHandler.instance.WinCondition(playTime);
+            UIHandler.instance.WinCondition(playTime, currentMistakes, maxHints);
         }
     }
 
