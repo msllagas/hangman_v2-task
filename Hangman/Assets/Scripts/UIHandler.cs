@@ -272,6 +272,11 @@ public class UIHandler : MonoBehaviour
         //StartCoroutine(NextLevelAfterWait());
     }
 
+    public void DiffMenu()
+    {
+        SceneManager.LoadScene("Diff");
+    }
+
     public void ResetGame()
     {
         // load the current open scene
