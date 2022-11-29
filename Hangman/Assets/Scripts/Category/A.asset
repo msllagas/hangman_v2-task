@@ -16,6 +16,699 @@ MonoBehaviour:
   wordList:
   - MEET
   - COOK
+  - ACTIVITY
+  - ACTRESS
+  - AFRAID
+  - AIRPORT
+  - APARTMENT
+  - ARTICLE
+  - BANK (MONEY)
+  - BATHROOM
+  - BEAUTIFUL
+  - BEDROOM
+  - BEGINNING
+  - BUILDING
+  - CAKE
+  - CARD
+  - CHECK
+  - CLASSROOM
+  - COMPARE
+  - COUSIN
+  - DANGEROUS
+  - DAUGHTER
+  - DELICIOUS
+  - DIALOGUE
+  - DIFFICULT
+  - DOOR
+  - EAR
+  - ELEPHANT
+  - EVENING
+  - EVERYBODY
+  - EXAMPLE
+  - EXPENSIVE
+  - FALSE
+  - FAST
+  - FLOWER
+  - FRONT
+  - FRUIT
+  - FUTURE
+  - GAME
+  - GEOGRAPHY
+  - GLASS
+  - GOOD
+  - GUESS
+  - GUITAR
+  - HAIR
+  - HAND
+  - HEALTH
+  - HISTORY
+  - HOMEWORK
+  - HUSBAND
+  - IMAGINE
+  - IMPORTANT
+  - INFORMATION
+  - INTERVIEW
+  - INTRODUCE
+  - JACKET
+  - JOURNEY
+  - JUICE
+  - JULY
+  - JUNE
+  - JUST
+  - KEEP
+  - KEY
+  - KILOMETRE
+  - KIND
+  - KITCHEN
+  - KNOW
+  - LANGUAGE
+  - LEAVE
+  - LIBRARY
+  - LISTEN
+  - LOSE
+  - LOVE
+  - MACHINE
+  - MARRIED
+  - MEMBER
+  - MIDNIGHT
+  - MODERN
+  - MUSEUM
+  - NATURAL
+  - NEGATIVE
+  - NEIGHBOUR
+  - NEWSPAPER
+  - NOBODY
+  - NURSE
+  - OFFICE
+  - OFTEN
+  - ONCE
+  - OPPOSITE
+  - OTHER
+  - OUTSIDE
+  - PAINTING
+  - PASSPORT
+  - PHOTOGRAPH
+  - POLICEMAN
+  - PROBABLY
+  - PRODUCT
+  - QUARTER
+  - QUESTION
+  - QUICK
+  - QUICKLY
+  - QUIET
+  - QUITE
+  - RADIO
+  - READ
+  - REASON
+  - REPORT
+  - RICE
+  - ROOM
+  - SCIENTIST
+  - SHIRT
+  - SONG
+  - STATEMENT
+  - STRONG
+  - SWEATER
+  - TABLE
+  - TALL
+  - TELEVISION
+  - THEATRE
+  - TOMORROW
+  - TROUSERS
+  - UMBRELLA
+  - UNCLE
+  - UNIVERSITY
+  - UPSTAIRS
+  - USEFUL
+  - USUALLY
+  - VACATION
+  - VEGETABLE
+  - VIDEO
+  - VILLAGE
+  - VISIT
+  - VISITOR
+  - WAITER
+  - WALK
+  - WARM
+  - WEATHER
+  - WINDOW
+  - WINTER
+  - WORLD
+  - WRITER
+  - WRONG
+  - YEAH
+  - YEAR
+  - YELLOW
+  - YES
+  - YESTERDAY
+  - YOU PRON.
+  - YOUNG
+  - YOUR
+  - YOURSELF
+  - ABROAD
+  - ADVENTURE
+  - AMOUNT
+  - ANYBODY
+  - APPEARANCE
+  - ATHLETE
+  - AVOID
+  - AWARD
+  - BACKGROUND
+  - BEHAVIOUR
+  - BENEFIT
+  - BEST
+  - BETTER
+  - BETWEEN
+  - BRIGHT
+  - BRILLIANT
+  - CAMPING
+  - CARTOON
+  - CELEBRITY
+  - CHEMISTRY
+  - CREATIVE
+  - CROWDED
+  - CURLY
+  - DAILY
+  - DANGER
+  - DARK
+  - DENTIST
+  - DRAWING
+  - DREAM
+  - DRUG
+  - EARTH
+  - ELECTRICITY
+  - EMPLOYEE
+  - EXPLANATION
+  - EXPRESS
+  - EXTREME
+  - FAN
+  - FARM
+  - FICTION
+  - FIELD
+  - FLIGHT
+  - FORK
+  - FORMAL
+  - GIFT
+  - GOAL
+  - GOLD
+  - GOOD
+  - GOVERNMENT
+  - GRASS
+  - GREET
+  - HEART
+  - HEAT
+  - HEAVY
+  - HEIGHT
+  - HIDE
+  - HIGH
+  - HILL
+  - IMAGE
+  - IMPOSSIBLE
+  - INCREASE
+  - INCREDIBLE
+  - INDEPENDENT
+  - INJURY
+  - INSECT
+  - INVENTION
+  - INVITATION
+  - JAM
+  - JAZZ
+  - JEWELLERY
+  - JOKE
+  - JOURNALIST
+  - JUMP
+  - KID
+  - KILL
+  - KING
+  - KNEE
+  - KNIFE
+  - KNOCK
+  - KNOWLEDGE
+  - LAB
+  - LADY
+  - LAKE
+  - LAMP
+  - LAND
+  - LAPTOP
+  - LEADER
+  - LEARNING
+  - MAIL
+  - MAJOR
+  - MALE
+  - MANAGE
+  - MANAGER
+  - MANNER
+  - MEDICAL
+  - MEDICINE
+  - MEMORY
+  - MENTION
+  - METAL
+  - NARROW
+  - NATIONAL
+  - NATURE
+  - NEARLY
+  - NECESSARY
+  - NECK
+  - NEED
+  - OCEAN
+  - OFFER
+  - OFFICER
+  - OIL
+  - OPPORTUNITY
+  - OPTION
+  - ORDINARY
+  - ORGANIZATION
+  - PACK
+  - PAIN
+  - PAINTER
+  - PALACE
+  - PATIENT
+  - PATTERN
+  - PILOT 
+  - QUALITY
+  - QUANTITY
+  - QUEEN
+  - QUIETLY 
+  - RECORDING
+  - RECYCLE
+  - REDUCE
+  - REFER
+  - REGION
+  - REGULAR
+  - REPORTER
+  - REQUEST
+  - RESEARCH
+  - SALARY
+  - SALE
+  - SAUCE
+  - SAVE
+  - SCARED
+  - SCARY
+  - SCENE
+  - SCHEDULE
+  - TEMPERATURE
+  - TERM
+  - THICK
+  - THIEF
+  - THIN
+  - UNHAPPY
+  - UNIFORM
+  - UNIT
+  - UNITED
+  - UNUSUAL
+  - VALLEY
+  - VAN
+  - VARIETY
+  - VEHICLE
+  - VIEW
+  - VIRUS
+  - VOICE
+  - WAVE
+  - WEAK
+  - WEB
+  - WEDDING
+  - WEIGHT
+  - WELCOME
+  - WET
+  - WHEEL
+  - YET
+  - YOURS
   definition:
   - To gather.
   - Takes place usually in the kitchen.
+  - '[n.] a thing that you do for interest or pleasure'
+  - '[n.] a woman who performs on the stage, on television or in films, especially
+    as a profession'
+  - '[adj.] feeling fear; frightened because you think that you might be hurt or
+    suffer'
+  - '[n.] a place where planes land and take off and that has buildings for passengers
+    to wait in'
+  - '[n.] a set of rooms for living in, usually on one floor of a building'
+  - '[n.] a piece of writing about a particular subject in a newspaper or magazine,
+    on a website, etc.'
+  - '[n.] an organization that provides various financial services, for example keeping
+    or lending money'
+  - "[n.] a room in which there is a bath, a\_washbasin\_and often a toilet"
+  - '[adj.] having beauty; giving pleasure to the senses or to the mind'
+  - '[n.] a room for sleeping in'
+  - '[n.] the time when something starts; the first part of an event, a story, etc.'
+  - '[n.] a structure such as a house or school that has a roof and walls'
+  - "[n.]\_a sweet food made from a mixture of flour, eggs, butter, sugar, etc. that
+    is baked in an oven."
+  - '[n.] thick, stiff paper; a piece of this for writing on'
+  - '[v.] to examine something to see if it is correct, safe or acceptable'
+  - '[n.] a room where a class of children or students is taught'
+  - '[v.] to examine people or things to see how they are similar and how they are
+    different'
+  - '[n.] a child of your aunt or uncle'
+  - '[adj.] likely to injure or harm somebody, or to damage or destroy something'
+  - "[n.] a person\u2019s female child"
+  - '[adj.] having a very pleasant taste or smell'
+  - '[n.] a conversation in a book, play or film or in language teaching materials'
+  - '[adj.] not easy; needing effort or skill to do or to understand'
+  - '[n.] a piece of wood, glass, etc. that is opened and closed so that people can
+    get in and out of a room, building, car, etc.'
+  - '[n.] either of the organs on the sides of the head that you hear with'
+  - "[n.] a very large animal with thick grey skin, large ears, two curved outer
+    teeth called\_tusks\_and a long nose called a\_trunk."
+  - '[n.] the part of the day between the afternoon and the time you go to bed'
+  - '[pron.] every person; all people'
+  - '[n.] something such as an object, a fact or a situation that shows, explains
+    or supports what you say'
+  - '[adj.] costing a lot of money'
+  - '[adj.] wrong; not correct or true'
+  - '[adj.] moving or able to move quickly'
+  - '[n.] the coloured part of a plant from which the seed or fruit develops.'
+  - '[n.] the part or side of something that faces forward'
+  - '[n.] the part of a plant that consists of one or more seeds and a soft inner
+    part, can be eaten as food and usually tastes sweet'
+  - '[n.] the part of a plant that consists of one or more seeds and a soft inner
+    part, can be eaten as food and usually tastes sweet'
+  - '[n.] an activity that you do to have fun, often one that has rules and that
+    you can win or lose; the equipment for a game'
+  - "[n.] the scientific study of the earth\u2019s surface, physical features, divisions,
+    products, population, etc."
+  - '[n.] a hard, usually clear, substance used, for example, for making windows
+    and bottles'
+  - '[adj.] of high quality or an acceptable standard'
+  - '[v.] to try and give an answer or make a judgement about something without being
+    sure of all the facts'
+  - "[n.] a musical instrument that usually has six strings and that you play with
+    your fingers or with a\_plectrum"
+  - "[n.] the substance that looks like a mass of fine\_threads\_growing on a person's head"
+  - "[v] the part of the body at the end of the arm, including the fingers and\_thumb"
+  - "[n.] the condition of a person\u2019s body or mind"
+  - '[n.] all the events that happened in the past'
+  - '[n.] work that is given by teachers for students to do at home'
+  - '[n.] the man that somebody is married to; a married man'
+  - '[v.] to form a picture in your mind of what something might be like'
+  - '[adj.] having a great effect on people or things; of great value'
+  - '[n.] facts or details about somebody/something'
+  - '[v.] a formal meeting at which somebody is asked questions to see if they are
+    suitable for a particular job, or for a course of study at a college, university,
+    etc.'
+  - "[v.] to tell two or more people who have not met before what each other\u2019s
+    names are; to tell somebody what your name is"
+  - '[n.] a piece of clothing worn on the top half of the body over a shirt, etc.
+    that has arms and fastens down the front; a short, light coat'
+  - '[n.] an act of travelling from one place to another, especially when they are
+    far apart'
+  - '[n.] the liquid that comes from fruit or vegetables; a drink made from this'
+  - '[n.] the 7th month of the year, between June and August'
+  - '[n.] the 6th month of the year, between May and July'
+  - '[adv.] only'
+  - "[v.] keep something\_to continue to have something and not give it back or throw
+    it away"
+  - '[n.] a piece of metal with a special shape used for locking a door, starting
+    a car, etc.'
+  - '[n.] a unit for measuring distance; 1000 metres'
+  - '[n.] a group of people or things that are the same in some way; a particular
+    variety or type'
+  - '[n.] a room in which meals are cooked or prepared'
+  - '[v.] to have information in your mind as a result of experience or because you
+    have learned or been told it'
+  - '[n.] the system of communication in speech and writing that is used by people
+    of a particular country or area'
+  - '[v.] to go away from a person or a place'
+  - '[n.] a building in which collections of books, newspapers, etc. and sometimes
+    films and recorded music are kept for people to read, study or borrow'
+  - '[v.] to pay attention to somebody/something that you can hear'
+  - '[v.] to be unable to find something/somebody'
+  - '[n.] a very strong feeling of liking and caring for somebody/something, especially
+    a member of your family or a friend'
+  - '[n.] a piece of equipment with many parts that work together to do a particular
+    task.'
+  - '[adj.] having a husband or wife'
+  - '[n.] a person, an animal or a plant that belongs to a particular group'
+  - "[n.] 12 o\u2019clock at night"
+  - '[adj.] of the present time or recent times'
+  - '[n.] a building in which objects of artistic, cultural, historical or scientific
+    interest are kept and shown to the public'
+  - '[adj.] existing in nature; not made or caused by humans'
+  - '[n.] bad or harmful'
+  - '[n.] a person who lives next to you or near you'
+  - '[n.] a set of large printed sheets of paper, or a website, containing news,
+    articles, advertisements, etc.'
+  - '[pron.] not anyone; no person'
+  - '[n.] a person whose job is to take care of sick or injured people, usually in
+    a hospital'
+  - '[n.] a room, set of rooms or building where people work, usually sitting at
+    desks'
+  - '[adv.] many times'
+  - '[adv.] on one occasion only; one time'
+  - '[n.] on the other side of a particular area from somebody/something and usually
+    facing them'
+  - '[pron.] used to refer to people or things that are additional or different to
+    people or things that have been mentioned or are known about'
+  - '[adv.] not in a room, building or container but on or to the outside of it'
+  - '[n.] a picture that has been painted'
+  - '[n.] an official document that identifies you as a citizen of a particular country,
+    and that you may have to show when you enter or leave a country'
+  - '[n.] a picture that is made by using a camera that stores images in digital
+    form or that has a film sensitive to light inside it'
+  - '[n.] a male police officer'
+  - '[adv.] used to say that something is likely to happen or to be true'
+  - '[n.] a thing that is grown, produced or created, usually for sale'
+  - '[n.] one of four equal parts of something'
+  - '[n.] a sentence, phrase or word that asks for information'
+  - '[adv.] done with speed; taking or lasting a short time'
+  - '[adj.] fast'
+  - '[adj.] making very little noise'
+  - '[adv.] to some degree'
+  - '[n.] the activity of broadcasting programmes for people to listen to; the programmes
+    that are broadcast'
+  - '[v.] to look at and understand the meaning of written or printed words or symbols'
+  - '[n.] a cause or an explanation for something that has happened or that somebody
+    has done'
+  - '[n.] a written or spoken account of an event, especially one that is published
+    or broadcast'
+  - '[n.] short, narrow white or brown grain grown on wet land in hot countries as
+    food; the plant that produces this grain'
+  - '[n.] a part of a building that has its own walls, floor and ceiling and is usually
+    used for a particular purpose'
+  - "[n.] a person who studies or is an expert in one or more of the\_natural sciences"
+  - '[n.] a piece of clothing worn on the upper part of the body'
+  - '[n.] a short piece of music with words that you sing'
+  - '[n.] something that you say or write that gives information or an opinion'
+  - '[adj.] having a lot of physical power so that you can lift heavy weights, do
+    hard physical work, etc.'
+  - "[n.] a piece of clothing for the upper part of the body, made of wool or cotton,
+    with long\_sleeves"
+  - '[n.] a piece of furniture that consists of a flat top supported by legs'
+  - '[adj.] having a greater than average height'
+  - '[n.] a piece of electrical equipment with a screen on which you can watch programmes
+    with moving pictures and sounds'
+  - '[n.] a building or an outdoor area where plays and similar types of entertainment
+    are performed'
+  - '[n.] on or during the day after today'
+  - '[n.] a piece of clothing that covers the lower body and is divided into two
+    parts to cover each leg separately'
+  - '[n.] an object that you use to protect yourself from the rain or from hot sun'
+  - '[n.] the brother of your mother or father'
+  - '[n.] an institution at the highest level of education where you can study for
+    a degree or do research'
+  - '[adv.] on or to a floor of a house or other building higher than the one that
+    you are on'
+  - '[adj.] that can help you to do or achieve what you want'
+  - '[adv.] in the way that is usual or normal; most often'
+  - '[n.] a period of time spent travelling or resting away from home'
+  - '[n.] a plant or part of a plant that is eaten as food.'
+  - '[n.] a system of recording moving pictures and sound, either using a digital
+    method of storing data or (in the past) using videotape'
+  - '[n.] a very small town located in a country area'
+  - '[n.] to see a person or a place for a period of time'
+  - '[n.] a person who visits a person or place'
+  - '[n.] a man whose job is to serve customers at their tables in a restaurant,
+    etc.'
+  - '[v.] to move or go somewhere by putting one foot in front of the other on the
+    ground, but without running'
+  - '[adj.] at a fairly high temperature in a way that is pleasant, rather than being
+    hot or cold'
+  - '[n.] the condition of the atmosphere at a particular place and time, such as
+    the temperature, and if there is wind, rain, sun, etc.'
+  - '[n.] an opening in the wall or roof of a building, car, etc.'
+  - '[n.] the coldest season of the year, between autumn and spring'
+  - '[n.] the world [singular] the earth, with all its countries, peoples and natural
+    features'
+  - '[n.] a person whose job is writing books, stories, articles, etc.'
+  - '[adj.] not right or correct'
+  - '[exclam.] yes'
+  - '[n.] the period from 1 January to 31 December, that is 365 or 366 days, divided
+    into 12 months'
+  - '[adj.] having the colour of lemons or butter'
+  - '[exclam.] used to answer a question and say that something is correct or true'
+  - '[adv.] on the day before today'
+  - '[pron.] used as the subject or object of a verb or after a preposition to refer
+    to the person or people being spoken or written to'
+  - '[adj.] having lived or existed for only a short time; not fully developed'
+  - '[det.] of or belonging to the person or people being spoken or written to'
+  - '[pron.] used when the person or people being spoken to both cause and are affected
+    by an action'
+  - '[adv] in or to a foreign country'				
+  - '[n] an unusual, exciting or dangerous experience, journey or series of events'				
+  - '[n] a quantity of something'			
+  - '[pron] used instead of somebody in negative sentences and in questions after if/whether, and after verbs such as prevent, forbid, avoid, etc.'			
+  - '[n] the way that somebody/something looks on the outside'				
+  - '[n] a person who competes in sports'			
+  - '[v] to prevent something bad from happening'				
+  - '[n] a prize such as money, etc. for something that somebody has done'				
+  - '[n] the details of a person’s family, education, experience, etc.'				
+  - '[n] the way that somebody behaves, especially towards other people'				
+  - '[n] an advantage that something gives you; a helpful and useful effect that something has'				
+  - '[adv] of the most excellent type or quality'				
+  - '[adv] comparative of good'				
+  - '[adv] in or into the space separating two or more points, objects, people, etc.'				
+  - '[adj] full of light; shining strongly'				
+  - '[adj] extremely clever or impressive'				
+  - '[n] living in a tent, etc. on holiday'				
+  - '[n] a humorous drawing in a newspaper or magazine, especially one about politics or events in the news'				
+  - '[n] a famous person'				
+  - '[n] the scientific study of the structure of substances, how they react when combined or in contact with one another, and how they behave under different conditions'	
+  - '[adj] involving the use of skill and the imagination to produce something new or a work of art'				
+  - '[adj] having a lot of people or too many people'				
+  - '[adj] having a lot of curls or a curved shape'				
+  - '[adj] happening, done or produced every day'				
+  - '[n] the possibility of something happening that will injure, harm or kill somebody, or damage or destroy something'				
+  - '[n] with no or very little light, especially because it is night'				
+  - '[n] a person whose job is to take care of people’s teeth'				
+  - '[n] a picture made using a pencil or pen rather than paint'				
+  - '[n] a series of images, events and feelings that happen in your mind while you are asleep'				
+  - '[n] an illegal substance that some people smoke, inject, etc. for the physical and mental effects it has'				
+  - '[n] the world; the planet that we live on'				
+  - '[n] a form of energy from charged elementary particles, usually supplied as electric current through cables, wires, etc. for lighting, heating, driving machines, etc.'	
+  - '[n] a person who is paid to work for somebody'				
+  - '[n] a statement, fact, or situation that tells you why something happened; a reason given for something'				
+  - '[v] to show or make known a feeling, an opinion, etc. by words, looks or actions'				
+  - '[adj] very great in degree'				
+  - '[n] a person who admires somebody/something or enjoys watching or listening to somebody/something very much'				
+  - '[v] an area of land, and the buildings on it, used for growing crops and/or keeping animals'				
+  - '[n] a type of literature that describes imaginary people and events, not real ones'				
+  - '[n] an area of land in the country used for growing crops or keeping animals in, usually surrounded by a fence, etc.'				
+  - '[n] a journey made by air, especially in a plane'				
+  - '[n] a tool with a handle and three or four sharp points'				
+  - '[adj] very correct and suitable for official or important occasions'				
+  - '[n] a thing that you give to somebody, especially on a special occasion or to say thank you'				
+  - '[n] a frame with a net into which players must kick or hit the ball in order to score a point'				
+  - '[n] a chemical element. Gold is a yellow precious metal used for making coins, jewellery, beautiful objects, etc.'				
+  - '[adj] of high quality or an acceptable standard'				
+  - '[n] the group of people who are responsible for controlling a country or a state'				
+  - '[n] a common wild plant with narrow green leaves and stems that are eaten by cows, horses, sheep, etc.'				
+  - '[v] to say hello to somebody or to welcome them'				
+  - '[n] the organ in the chest that sends blood around the body, usually on the left in humans'				
+  - '[n] the quality of being hot'				
+  - '[adj] weighing a lot'				
+  - '[n] the measurement of how tall a person or thing is'				
+  - '[v] to put or keep somebody/something in a place where they/it cannot be seen or found'				
+  - '[adv] greater or better than normal in quantity or quality, size or degree'				
+  - '[n] an area of land that is higher than the land around it, but not as high as a mountain'				
+  - '[n] a picture, photograph or statue that represents somebody/something'				
+  - '[adj] that cannot exist or be done; not possible'				
+  - '[v] to become greater in amount, number, value, etc.'				
+  - '[adj] impossible or very difficult to believe'			
+  - '[adj] having its own government'				
+  - '[n] harm done to a person’s or an animal’s body, for example in an accident'				
+  - '[n] any small creature with six legs and a body divided into three parts.'				
+  - '[n] a thing or an idea that has been invented'				
+  - '[n] a spoken or written request to somebody to do something or to go somewhere'				
+  - '[n] a thick sweet substance made by boiling fruit with sugar, often sold in jars and spread on bread'				
+  - '[n] a type of music with strong rhythms, in which the players often improvise, originally created by African American musicians at the beginning of the 20th century'	
+  - '[n] objects such as rings and necklaces that people wear as decoration'				
+  - '[n] something that you say or do to make people laugh, for example a funny story that you tell'				
+  - '[n] a person whose job is to collect and write news stories for newspapers, magazines, radio, television or online news sites'				
+  - '[v] to move quickly off the ground or away from a surface by pushing yourself with your legs and feet'				
+  - '[n] a child or young person'				
+  - '[v] to make somebody/something die'				
+  - '[n] the male ruler of an independent state that has a royal family'				
+  - '[n] the joint between the top and bottom parts of the leg where it bends in the middle'				
+  - '[n] enlarge imagea sharp blade with a handle, used for cutting or as a weapon'				
+  - '[v] to hit a door, etc. in order to attract attention'				
+  - '[n] the information, understanding and skills that you gain through education or experience'				
+  - '[n] a laboratory'				
+  - '[n] a word used to mean ‘woman’ that some people, especially older people, consider is more polite'				
+  - '[n] a large area of water that is surrounded by land'				
+  - '[n] a device that uses electricity, oil or gas to produce light'				
+  - '[n] surface of earth'				
+  - '[n] a small computer that can work with a battery and be easily carried'				
+  - '[n] a person who leads a group of people, especially the head of a country, an organization, etc.'				
+  - '[n] the process of learning something'				
+  - '[n] the official system used for sending and delivering letters, packages, etc.'				
+  - '[adj] very large or important'				
+  - '[adj] being a man or boy'				
+  - '[v] to control or be in charge of a business, a team, an organization, land, etc.'				
+  - '[n] a person who is in charge of running a business, a shop or a similar organization or part of one'				
+  - '[n] behaviour that is considered to be polite in a particular society or culture'				
+  - '[adj] connected with illness and injury and their treatment'				
+  - '[n] the study and treatment of diseases and injuries'				
+  - '[n] ability to remember'				
+  - '[v] to write or speak about something/somebody, especially without giving much information'				
+  - '[n] a type of solid mineral substance that is usually hard and shiny and that heat and electricity can travel through, for example tin, iron and gold'		
+  - '[adj] measuring a short distance from one side to the other, especially in relation to length'				
+  - '[adj] connected with a particular nation; shared by a whole nation'				
+  - '[n] plants, animals'				
+  - '[adv] almost; not quite; not completely'				
+  - '[adj] that is needed for a purpose or a reason'				
+  - '[n]  the part of the body between the head and the shoulders'				
+  - '[n] to require something/somebody because they are essential or very important, not just because you would like to have them'				
+  - '[n] the mass of salt water that covers most of the earth’s surface'				
+  - '[v] to say that you are willing to give something to somebody'				
+  - '[n] a person who is in a position of authority in the armed forces'				
+  - '[n] a thick liquid that is found in rock underground'				
+  - '[n] a time when a particular situation makes it possible to do or achieve something'				
+  - '[n] something that you can choose to have or do; the freedom to choose what you do'				
+  - '[adj] not unusual or different in any way'				
+  - '[n] a group of people who form a business, club, etc. together in order to achieve a particular aim'				
+  - '[v] to put clothes, etc. into a bag in preparation for a trip away from home'				
+  - '[n] the feelings that you have in your body when you have been hurt or when you are ill'				
+  - '[n] a person whose job is painting buildings, walls, etc.'				
+  - '[n] the official home of a king, queen, president, etc.'				
+  - '[n] a person who is receiving medical treatment, especially in a hospital'				
+  - '[n] the regular way in which something happens or is done'				
+  - '[n] a person who operates the controls of an aircraft, especially as a job'				
+  - '[n] the standard of something when it is compared to other things like it; how good or bad something is'				
+  - '[n] an amount or a number of something'				
+  - '[n] the female ruler of an independent state that has a royal family'				
+  - '[adv] in a way that makes very little noise'				
+  - '[n] sound or pictures that have been recorded on computer files or on CD, DVD, video, etc.'				
+  - '[v] to treat things that have already been used so that they can be used again'				
+  - '[v] to make something less or smaller in size, quantity, price, etc.; to become less or smaller in size, quantity, etc.'			
+  - '[v] ​to send somebody/something to somebody/something for help, advice or a decision'				
+  - '[n] a large area of land, usually without exact limits or borders'				
+  - '[adj] following a pattern, especially with the same time or space in between each thing and the next'				
+  - '[n] a person who collects and reports news for newspapers, radio or television'				
+  - '[n] the action of asking for something formally and politely; a thing that you formally ask for'				
+  - '[n] a careful study of a subject, especially in order to discover new facts or information about it'			
+  - '[n] money that employees receive for doing their job, especially professional employees or people working in an office, usually paid every month'			
+  - '[n] an act or the process of selling something'				
+  - '[n] a thick liquid that is eaten with food to add taste to it'				
+  - '[v] to keep somebody/something safe from death, harm, loss, etc.'				
+  - '[adj] frightened of something or afraid that something bad might happen'				
+  - '[adj] frightening'				
+  - '[n] the place where something happens, especially something unpleasant'				
+  - '[n] a plan that lists all the work that you have to do and when you must do each thing'				
+  - '[n] the measurement in degrees of how hot or cold a thing or place is'				
+  - '[n] a word or phrase used as the name of something, especially one connected with a particular type of language'			
+  - '[adj] having a larger distance between opposite sides or surfaces than other similar objects or than normal'			
+  - '[n] a person who steals something from another person or place'				
+  - '[adj] having a smaller distance between opposite sides or surfaces than other similar objects or than normal'			
+  - '[ndj] not happy; sad'				
+  - '[n] the special set of clothes worn by all members of an organization or a group at work, or by children at school'		
+  - '[n] a single thing, person or group that is complete by itself but can also form part of something larger'				
+  - '[adj] joined together as a political unit or by shared aims'				
+  - '[adj] different from what is usual or normal'				
+  - '[n] an area of low land between hills or mountains, often with a river flowing through it'				
+  - '[n] a covered vehicle with no side windows in its back half, usually smaller than a lorry, used for carrying goods or people'	
+  - '[n] several different sorts of the same thing'				
+  - '[n] a thing that is used for transporting people or goods from one place to another, such as a car or lorry'			
+  - '[n] what you can see from a particular place or position, especially beautiful countryside'				
+  - '[n] a living thing, too small to be seen without a microscope, that causes disease in people, animals and plants'			
+  - '[n] the sound or sounds produced through the mouth by a person speaking or singing'			
+  - '[n] a raised line of water that moves across the surface of the sea, ocean, etc.'				
+  - '[adj] not physically strong'				
+  - '[n] a system for finding information on the internet, in which documents are connected to other documents'				
+  - '[n] a marriage ceremony, and the meal or party that usually follows it'				
+  - '[n] how heavy somebody/something is, which can be measured in, for example, kilograms or pounds'				
+  - ' [n] used as a greeting to tell somebody that you are pleased that they are there'				
+  - '[adj] covered with or containing liquid, especially water'				
+  - '[n] one of the round objects under a car, bicycle, bus, etc. that turns when it moves'				
+  - '[adv] used in negative sentences and questions to talk about something that has not happened but that you expect to happen'	
+  - '[pron] of or belonging to you'
