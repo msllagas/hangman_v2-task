@@ -996,6 +996,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   bgmSlider: {fileID: 0}
   image: {fileID: 0}
+  selectedButton: 0
 --- !u!4 &271535053
 Transform:
   m_ObjectHideFlags: 0

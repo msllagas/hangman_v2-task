@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement; // 39
 using UnityEngine.UI;
 using TMPro; // 44
@@ -71,9 +72,11 @@ public class UIHandler : MonoBehaviour
 
     public Image image;
 
+    public int selectedButton;
+
     void Awake()
     {
-        instance = this;   
+        instance = this;
     }// 38
 
     void Start()
@@ -87,6 +90,32 @@ public class UIHandler : MonoBehaviour
         //UpdatePoints();
 
     } // 45
+
+    public void LevelButton()
+    {
+        string clickedButton = EventSystem.current.currentSelectedGameObject.name;
+
+        if (string.Equals(clickedButton,"Level A"))
+        {
+            selectedButton = 0;
+            Debug.Log(selectedButton);
+            SceneManager.LoadScene("Game");
+        }
+        else if (string.Equals(clickedButton, "Level B"))
+        {
+            selectedButton = 1;
+            Debug.Log(selectedButton);
+            SceneManager.LoadScene("Game");
+        }
+        else if (string.Equals(clickedButton, "Level C"))
+        {
+            selectedButton = 2;
+            Debug.Log(selectedButton);
+
+            SceneManager.LoadScene("Game");
+        }
+
+    }
 
     public void SettingsButton() // top-left corner button
     {
@@ -255,7 +284,6 @@ public class UIHandler : MonoBehaviour
 
     public void BackToMenu(string levelToLoad)
     {
-        
         SceneManager.LoadScene(levelToLoad);
 
     } // 39
@@ -266,15 +294,17 @@ public class UIHandler : MonoBehaviour
 
         SceneManager.LoadScene("Game");
     }
-    public void Menu()
-    {
-        SceneManager.LoadScene("Game");
-        //StartCoroutine(NextLevelAfterWait());
-    }
 
     public void DiffMenu()
     {
         SceneManager.LoadScene("Diff");
+        //StartCoroutine(NextLevelAfterWait());
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Game");
+        //StartCoroutine(NextLevelAfterWait());
     }
 
     public void ResetGame()

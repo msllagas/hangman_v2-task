@@ -1173,7 +1173,6 @@ GameObject:
   - component: {fileID: 364292760}
   - component: {fileID: 364292761}
   - component: {fileID: 364292762}
-  - component: {fileID: 364292763}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1843,6 +1842,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   bgmSlider: {fileID: 2051300704}
   image: {fileID: 1915803811}
+  selectedButton: 0
 --- !u!82 &364292762
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1936,54 +1936,6 @@ AudioSource:
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &364292763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364292757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce142e8b75f41d446b46c68df3857ebd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TimeonTaskshort:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  TimeonTaskmedium:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  TimeonTasklong:
-    serializedVersion: 2
-    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4

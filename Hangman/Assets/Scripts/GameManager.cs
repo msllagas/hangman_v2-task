@@ -9,8 +9,10 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance; // 23
-    
+
+
     List<string> solvedList = new List<string>();
+
     string[] unsolvedWord;
     [Header("Letters")]
     [Space]
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     int maxMistakes;
     int currentMistakes;
+
     
 
     void Awake()
@@ -51,11 +54,16 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Timer()); // 25
     }
 
+ 
     void Initialize()
     {
         // pick a category first
 
-        int cIndex = Random.Range(0, categories.Length); // 19
+        int catNum = DiffHandler.instance.selectedButton;
+        Debug.Log(catNum);
+        //int cIndex = Random.Range(0, categories.Length); // 19
+        int cIndex = catNum;
+
         categoryText.text = categories[cIndex].name; // 24
         int wIndex = Random.Range(0, categories[cIndex].wordList.Length); // 19
 
