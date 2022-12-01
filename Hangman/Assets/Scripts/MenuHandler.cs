@@ -39,7 +39,9 @@ public class MenuHandler : MonoBehaviour
             "" + statsList.totalLosses + "\n" +
             "" + statsList.gamesPlayed + "\n" +
             "" + statsList.winRatio + "%\n" +
-            "" + statsList.fastestTime + "s\n";
+            "" + statsList.motivationLevel + "s\n" +
+            "" + statsList.centralTend + "s\n";
+
     } // 45
     public void OpenSettings()
     {

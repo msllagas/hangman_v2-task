@@ -9,33 +9,34 @@ public class Stats
     public int totalLosses;
     public int gamesPlayed;
     public float winRatio;
-    public int fastestTime = 9999; // in seconds
-
-
- 
-
-    public void SaveStats(bool hasWonGame, int playtime)
+    public int checker;
+    public float motivationLevel;
+    public float actualML;
+    public float totalML;
+    public float centralTend;
+    public void SaveStats(bool hasWonGame, bool hasplayedGame, float calculatedML, int data)
     {
 
         StatsData statsList = SaveSystem.LoadStats();
 
-        //AssetDatabase.Refresh();
-       // statsList.points += (hasWonGame) ? 5 : 0;
         statsList.totalWins += (hasWonGame) ? 1 : 0;
         statsList.totalLosses += (!hasWonGame) ? 1 : 0;
         statsList.gamesPlayed = statsList.totalLosses + statsList.totalWins;
-
         statsList.winRatio = (float)Math.Round(((float)statsList.totalWins / statsList.gamesPlayed) * 100, 2);
 
-        if (hasWonGame)
+        if (hasplayedGame)
         {
-            statsList.fastestTime = (playtime >= fastestTime) ? fastestTime : playtime;
+            statsList.totalML += 3f;
+            statsList.actualML += calculatedML;
+            statsList.centralTend = (float)Math.Round((statsList.actualML / statsList.totalML) * 100, 2);
         }
+
+        statsList.motivationLevel = calculatedML;
+        
+        statsList.checker = data;
 
         SaveSystem.SaveStats( statsList );
 
-        /*EditorUtility.SetDirty(this); // 43
-        AssetDatabase.SaveAssets(); // 43*/
     }
 
     public void InitStats()

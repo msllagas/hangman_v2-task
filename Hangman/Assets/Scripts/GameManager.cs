@@ -9,8 +9,10 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance; // 23
-    
+
+
     List<string> solvedList = new List<string>();
+
     string[] unsolvedWord;
     [Header("Letters")]
     [Space]
@@ -29,13 +31,14 @@ public class GameManager : MonoBehaviour
     bool gameOver; // 25
     [Header("Hints")] // 27
     [Space]
-    public int  maxHints = 3; // 27
+    public int maxHints = 3; // 27
     [Header("Mistakes")] // 32
     [Space]
     public Animator[] petalList;
     [SerializeField]
     int maxMistakes;
     int currentMistakes;
+
     
 
     void Awake()
@@ -51,11 +54,16 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Timer()); // 25
     }
 
+ 
     void Initialize()
     {
         // pick a category first
 
-        int cIndex = Random.Range(0, categories.Length); // 19
+        int catNum = DiffHandler.instance.selectedButton;
+        Debug.Log(catNum);
+        //int cIndex = Random.Range(0, categories.Length); // 19
+        int cIndex = catNum;
+
         categoryText.text = categories[cIndex].name; // 24
         int wIndex = Random.Range(0, categories[cIndex].wordList.Length); // 19
 
@@ -117,7 +125,7 @@ public class GameManager : MonoBehaviour
             if (currentMistakes == maxMistakes) // 32
             {
                 // Debug.Log("Lost Game");
-                UIHandler.instance.LoseCondition(playTime); // 38
+                UIHandler.instance.LoseCondition(playTime, currentMistakes, maxHints); // 38
                 gameOver = true;
                 
                 return;
@@ -131,7 +139,7 @@ public class GameManager : MonoBehaviour
         if (gameOver) // 25
         {
             // show ui
-            UIHandler.instance.WinCondition(playTime);
+            UIHandler.instance.WinCondition(playTime, currentMistakes, maxHints);
         }
     }
 
