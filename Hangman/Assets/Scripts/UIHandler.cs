@@ -70,7 +70,8 @@ public class UIHandler : MonoBehaviour
     [Header("SLIDER")]
     [SerializeField] Slider bgmSlider;
 
-    public Image image;
+    public Image victory_losePanel;
+    public Image settings_StatsPanel;
 
     public int selectedButton;
 
@@ -120,16 +121,16 @@ public class UIHandler : MonoBehaviour
     public void SettingsButton() // top-left corner button
     {
         settingsPanel.SetTrigger("open");
-        ImageEnabler();
+        SSPanelEnabler();
     }
     public void StatsButton() // top-left corner button
     {
 
         UpdateStatsText();
         statsPanel.SetTrigger("open");
-        ImageEnabler();
-       /* image.GetComponent<Image>();
-        image.gameObject.SetActive(true);*/
+        SSPanelEnabler();
+        /* image.GetComponent<Image>();
+         image.gameObject.SetActive(true);*/
 
         // 45
     }
@@ -156,11 +157,6 @@ public class UIHandler : MonoBehaviour
             "" + statsList.motivationLevel + "s\n" +
             "" + statsList.centralTend + "s\n";
     } // 45
-/*    void UpdatePoints()
-    {
-        StatsData statsList = SaveSystem.LoadStats();
-        pointsText.text = "" + statsList.points;
-    }*/
 
     void BackGroundMusic()
     {
@@ -211,14 +207,14 @@ public class UIHandler : MonoBehaviour
     {
         //image.GetComponent<Image>();
         //image.gameObject.SetActive(false);
-        ImageDisabler();
+        SSPanelDisabler();
         statsPanel.SetTrigger("close");
 
     }
     public void settingsPanelTrigger()
     {
 
-        ImageDisabler();
+        SSPanelDisabler();
         settingsPanel.SetTrigger("close");
         Save();
     }
@@ -246,7 +242,7 @@ public class UIHandler : MonoBehaviour
 
 
         winPanel.SetTrigger("open");
-        ImageEnabler();
+        VLPanelEnabler();
         audioSource.Stop();
         if (winnerSound != null)
         {
@@ -274,7 +270,7 @@ public class UIHandler : MonoBehaviour
         }
 
         gameOverPanel.SetTrigger("open");
-        ImageEnabler();
+        VLPanelEnabler();
         audioSource.Stop();
         if (gameOverSound != null)
         {
@@ -318,16 +314,27 @@ public class UIHandler : MonoBehaviour
         Application.Quit();
     }// 40
 
-    public void ImageEnabler()
+    public void VLPanelEnabler()
     {
-        image.GetComponent<Image>();
-        image.gameObject.SetActive(true);
+        victory_losePanel.GetComponent<Image>();
+        victory_losePanel.gameObject.SetActive(true);
     }
-    public void ImageDisabler()
+    public void VLPanelDisabler()
     {
 
-        image.GetComponent<Image>();
-        image.gameObject.SetActive(false);
+        victory_losePanel.GetComponent<Image>();
+        victory_losePanel.gameObject.SetActive(false);
+    }
+    public void SSPanelEnabler()
+    {
+        settings_StatsPanel.GetComponent<Image>();
+        settings_StatsPanel.gameObject.SetActive(true);
+    }
+    public void SSPanelDisabler()
+    {
+
+        settings_StatsPanel.GetComponent<Image>();
+        settings_StatsPanel.gameObject.SetActive(false);
     }
     public void ClickSound()
     {
