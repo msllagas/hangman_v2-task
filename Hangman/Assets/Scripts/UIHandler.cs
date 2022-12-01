@@ -7,11 +7,14 @@ using UnityEngine.UI;
 using TMPro; // 44
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using Firebase.Database;
 
 // 35
 public class UIHandler : MonoBehaviour
 {
     public static UIHandler instance; // 38
+    private string userID;
+    private DatabaseReference dbReference;
 
     //public Animator firstCloud;
     //public Animator secondCloud;
@@ -22,6 +25,11 @@ public class UIHandler : MonoBehaviour
     public Animator hintPanel;
     [Header("STATS")] // 44
     public TMP_Text statsText; // 44
+    public TMP_Text TotalWins;
+    public TMP_Text TotalLosses;
+    public TMP_Text GamesPlayed;
+    public TMP_Text WinRatio;
+    //public TMP_Text FastestTime;
     public Stats saveFile; // 44
 /*    [Header("POINTS")]
     public TMP_Text pointsText;*/
@@ -88,10 +96,20 @@ public class UIHandler : MonoBehaviour
         UpdateStatsText();
         //Load();
         LoadBGMSession();
-        //UpdatePoints();
+        userID = SystemInfo.deviceUniqueIdentifier;
+        dbReference = FirebaseDatabase.DefaultInstance.RootReference;
+        CreateUser();
 
     } // 45
+    public void CreateUser()
+    {
+       // Player newPlayer = new Player(int.Parse(TotalWins.text), int.Parse(TotalLosses.text), int.Parse(GamesPlayed.text), float.Parse(WinRatio.text), int.Parse(FastestTime.text));
+        Player newPlayer = new Player(int.Parse(TotalWins.text), int.Parse(TotalLosses.text), int.Parse(GamesPlayed.text), float.Parse(WinRatio.text));
+        //User newUser = new User(1, 2, 3, 4f, 5);
+        string json = JsonUtility.ToJson(newPlayer);
 
+        dbReference.Child("players").Child(userID).SetRawJsonValueAsync(json);
+    }
     public void LevelButton()
     {
         string clickedButton = EventSystem.current.currentSelectedGameObject.name;
@@ -156,6 +174,12 @@ public class UIHandler : MonoBehaviour
             "" + statsList.winRatio + "%\n" +
             "" + statsList.motivationLevel + "s\n" +
             "" + statsList.centralTend + "s\n";
+
+        TotalWins.text = statsList.totalWins.ToString();
+        TotalLosses.text = statsList.totalLosses.ToString();
+        GamesPlayed.text = statsList.gamesPlayed.ToString();
+        WinRatio.text = statsList.winRatio.ToString();
+        //FastestTime.text = statsList.FastestTime.ToString();
     } // 45
 
     void BackGroundMusic()

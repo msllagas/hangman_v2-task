@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "457823136456",
+    "firebase_url": "https://task-765c9-default-rtdb.firebaseio.com",
+    "project_id": "task-765c9",
+    "storage_bucket": "task-765c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457823136456:android:7fa5e8cad1982c6b53d3fd",
+        "android_client_info": {
+          "package_name": "com.task.hangman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457823136456-fe59halku9ei5ba26jfv02anlc5dsf8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5MIzdlcG1wQkLa-5_AVg1cHvRfqzwzA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457823136456-fe59halku9ei5ba26jfv02anlc5dsf8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
