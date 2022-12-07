@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: -1
+  controlID: 249
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: -1
+  controlID: 250
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 2512
+=======
+  controlID: 242
+>>>>>>> Stashed changes
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,9 +195,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 78670000
       m_LastClickedID: 0
       m_ExpandedIDs: aedeffff18e0ffff46e5ffff8ae8ffffa2f1fffffef2ffffc6f7ffff26fbffffbe620000fe630000808d0000c08e0000c4a6000004a8000046b7000086b80000
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 26fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -491,9 +501,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 2008.196, y: 654.28357, z: -8.734067}
     speed: 2
     m_Value: {x: 2008.196, y: 654.28357, z: -8.734067}
+=======
+    m_Target: {x: 246.66125, y: 98.4346, z: -2.0254562}
+    speed: 2
+    m_Value: {x: 246.66125, y: 98.4346, z: -2.0254562}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -544,9 +560,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 1130.6188
     speed: 2
     m_Value: 1130.6188
+=======
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -761,7 +783,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: -1
+  controlID: 251
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -798,7 +820,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -807,14 +829,14 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 274
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -892,14 +914,21 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\User\Documents\GitHub\hangman_v2-task\Hangman
+  m_LastProjectPath: C:\Users\DELL\Documents\Unity Builds\Hangman\hangman_v2-task\Hangman
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 171}
     m_SelectedIDs: e4660000
     m_LastClickedID: 26340
     m_ExpandedIDs: 00000000ba660000bc660000be66000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 107}
+    m_SelectedIDs: 60660000
+    m_LastClickedID: 26208
+    m_ExpandedIDs: 000000007e630000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -927,7 +956,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000ba660000bc660000be66000000ca9a3b
+=======
+    m_ExpandedIDs: 000000007e630000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -952,8 +985,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< Updated upstream
     m_SelectedInstanceIDs: 78670000
     m_LastClickedInstanceID: 26488
+=======
+    m_SelectedInstanceIDs: ca660000
+    m_LastClickedInstanceID: 26314
+>>>>>>> Stashed changes
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f65f000064680000e05f000056600000722d00003462000000000000a4f00000a2910000fa73000086d10000
     m_RenameOverlay:
@@ -1002,8 +1040,8 @@ MonoBehaviour:
     y: 0
     width: 366
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
