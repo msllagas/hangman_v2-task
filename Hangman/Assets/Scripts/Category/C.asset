@@ -20,7 +20,25 @@ MonoBehaviour:
   - COMPROMISE
   - SHED
   - REVELATION
-  - STRAIGHTFORWARD
+  - COINCIDE
+  - HUMBLE
+  - SUSTAIN
+  - SWING
+  - SYNDROME
+  - TEMPT
+  - TACTIC
+  - TENANT
+  - TENDER
+  - TENURE
+  - TERMINATE
+  - TERRAIN
+  - TERRIFIC
+  - LICENSE
+  - NOTORIOUS
+  - BURDEN
+  - COMPROMISE
+  - SHED
+  - REVELATION
   - COINCIDE
   - HUMBLE
   - SUSTAIN
@@ -56,7 +74,6 @@ MonoBehaviour:
   - TRAILER
   - TRANSCRIPT
   - TRANSIT
-  - TRANSFORMATION
   - TRAUMA
   - TREATY
   - TRIBUTE
@@ -65,7 +82,6 @@ MonoBehaviour:
   - TUITION
   - TRUSTEE
   - TWIST
-  - UNDERGRADUATE
   - UNDERLYING
   - UNIFY
   - UPCOMING
@@ -97,7 +113,6 @@ MonoBehaviour:
   - VIRTUE
   - VOCAL
   - VOW
-  - VULNERABILITY
   - VULNERABLE
   - WARD
   - WAREHOUSE
@@ -127,7 +142,6 @@ MonoBehaviour:
   - ACCLAIM
   - ACCOLADE
   - PITCH
-  - STRAIGHTFORWARD
   - WHIFF
   - WANE
   - COMPLIMENTS
@@ -145,12 +159,10 @@ MonoBehaviour:
   - AUSPICIOUS
   - BEST
   - BHADRALOK
-  - BLOCKBUSTING
   - BLUEPRINT
   - BOAST
   - BONANZA
   - BREAKOUT
-  - BREAKTHROUGH
   - BUCCANEER
   - CAPSTONE
   - CIRCUMVENT
@@ -161,7 +173,6 @@ MonoBehaviour:
   - EFFECTUAL
   - EQUAL
   - FAUSTIAN
-  - FAVOURABILITY
   - FELICITATE
   - FOOLPROOF
   - FOOTHOLD
@@ -195,9 +206,7 @@ MonoBehaviour:
   - OPPORTUNE
   - OUTPERFORM
   - OUTSTRIP
-  - OVERACHIEVER
   - OVERDOG
-  - PERTINACIOUS
   - PERTINACITY
   - PHENOMENON
   - PINNACLE
@@ -210,48 +219,12 @@ MonoBehaviour:
   - SURMOUNT
   - SYNERGY
   - TYCOON
-  - VAINGLORIOUS
   - VANITY
   - VINTAGE
   - WALTZ
   - WIZARDRY
   - WUNDERKIND
   - ZENITH
-  - ABSURD
-  - ACCUMULATE
-  - ACQUISITION
-  - ACTIVIST
-  - ADHERE
-  - AESTHETIC
-  - AFTERMATH
-  - BOUNDARY
-  - BREACH
-  - BUREAUCRACY
-  - CARGO
-  - CATTLE
-  - CHRONIC
-  - COCKTAIL
-  - CONQUER
-  - CYNICAL
-  - DEFAULT
-  - DEPOSIT
-  - DILEMMA
-  - DISCRIMINATION
-  - EPIDEMIC
-  - EXILE
-  - FOREIGNER
-  - FUNERAL
-  - GUERRILLA
-  - HARASSMENT
-  - INDIGENOUS
-  - INFLUENTIAL
-  - KINGDOM
-  - LITERACY
-  - MANDATORY
-  - NEWSLETTER
-  - NOMINEE
-  - PIONEER
-  - PLEDGE
   - CRISP
   - CYCLONE
   - DELUGE
@@ -271,16 +244,13 @@ MonoBehaviour:
   - BLITHE
   - BOGGLE
   - BOREDOM
-  - CONTROVERSIAL
   - CRESTFALLEN
   - DEJECTED
   - DROWSY
-  - FLABBERGASTED
   - FLINCH
   - GRIEVE
   - GUZZLE
   - HOSTILE
-  - HYPERVENTILATE
   - IDYLL
   - ILLUMINATE
   - INFATUATED
@@ -294,34 +264,32 @@ MonoBehaviour:
   - VEXED
   - WEARY
   - WHIRL
-  - LICENSE
-  - NOTORIOUS
-  - BURDEN
-  - COMPROMISE
-  - SHED
-  - REVELATION
-  - STRAIGHTFORWARD
-  - COINCIDE
-  - HUMBLE
-  - SUSTAIN
-  - SWING
-  - SYNDROME
-  - TEMPT
-  - TACTIC
-  - TENANT
-  - TENDER
-  - TENURE
-  - TERMINATE
-  - TERRAIN
-  - TERRIFIC
   definition:
   - '[v] to give somebody official permission to do, own, or use something'
   - '[adj] well known for being bad'
   - '[n] a duty, responsibility, etc. that causes worry, difficulty or hard work'
   - '[v]  to give up some of your demands in order to reach an agreement after disagreeing with somebody'
-  - '[v] to take off a piece of clothing'
+  - '[v] to take off a piece of clothing, coat or fur'
   - '[n] a fact that people are made aware of, especially one that has been secret and is surprising'
-  - '[adj] easy to do or to understand; not complicated'
+  - '[v]  (of two or more events) to take place at the same time'
+  - '[adj] showing you do not think that you are as important as other people'
+  - '[v] to provide enough of what somebody/something needs in order to live or exist'
+  - '[v] to move backwards or forwards or from side to side while hanging from a fixed point; to make something do this'
+  - '[n] a set of physical conditions that show you have a particular disease or medical problem'
+  - '[v] to attract somebody or make somebody want to do or have something, even if they know it is wrong'
+  - '[n] the particular method you use to achieve something'
+  - '[n] a person who pays rent for the use of a room, building, land, etc. to the person who owns it'
+  - '[adj] kind, gentle and loving'
+  - '[n] the period of time when somebody holds an important job, especially a political one; the act of holding an important job'
+  - '[v] to end; to make something end'
+  - '[n] used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.'
+  - '[adj] excellent; wonderful; very large; very great'
+  - '[v] to give somebody official permission to do, own, or use something'
+  - '[adj] well known for being bad'
+  - '[n] a duty, responsibility, etc. that causes worry, difficulty or hard work'
+  - '[v]  to give up some of your demands in order to reach an agreement after disagreeing with somebody'
+  - '[v] to take off a piece of clothing, coat or fur'
+  - '[n] a fact that people are made aware of, especially one that has been secret and is surprising'
   - '[v]  (of two or more events) to take place at the same time'
   - '[adj] showing you do not think that you are as important as other people'
   - '[v] to provide enough of what somebody/something needs in order to live or exist'
@@ -344,7 +312,7 @@ MonoBehaviour:
   - '[adj] very excited and pleased'
   - '[v] to become, and continue to be, successful, strong, healthy, etc.'
   - '[n] a regular rise and fall in the level of the sea, caused by the pull of the moon and sun; the flow of water that happens as the sea rises and falls'
-  - '[v] to hold or fix something more securely in position; to make something or become more difficult to move, open or separate'
+  - '[v]  to hold or fix something more securely in position; to make something or become more difficult to move, open or separate'
   - '[n] trees that are grown to be used in building or for making things'
   - '[adj] happening at exactly the right time'
   - '[n] the ability to suffer something, especially pain, difficult conditions, etc. without being harmed'
@@ -357,7 +325,6 @@ MonoBehaviour:
   - '[n] a truck, or a container with wheels, that is pulled by another vehicle'
   - '[n] a written or printed copy of words that have been spoken'
   - '[n] the process of being moved or carried from one place to another'
-  - '[n] a complete change in somebody/something'
   - '[n] a mental condition caused by severe shock, stress or fear, especially when the harmful effects last for a long time'
   - '[n] a formal agreement between two or more countries'
   - '[n] an act, a statement or a gift that is intended to show your love or respect, especially for a dead person'
@@ -366,7 +333,6 @@ MonoBehaviour:
   - '[n] the act of teaching something, especially to one person or to people in small groups'
   - '[n] a person or an organization that has control of money or property that has been put into a trust for somebody'
   - '[v] to bend or turn something into a particular shape'
-  - '[n] a university or college student who is studying for their first degree'
   - '[adj] important in a situation but not always easily noticed or stated clearly'
   - '[v] to join people, things, parts of a country, etc. together so that they form a single unit'
   - '[adj] going to happen soon'
@@ -389,26 +355,6 @@ MonoBehaviour:
   - '[n] a tube that carries blood through the body of a person or an animal, or liquid through the parts of a plant'
   - '[n] a person who has a lot of experience in a particular area or activity'
   - '[adj] that can be done; that will be successful'
-  - '[v] to give somebody official permission to do, own, or use something'
-  - '[adj] well known for being bad'
-  - '[n] a duty, responsibility, etc. that causes worry, difficulty or hard work'
-  - '[v]  to give up some of your demands in order to reach an agreement after disagreeing with somebody'
-  - '[v] to take off a piece of clothing'
-  - '[n] a fact that people are made aware of, especially one that has been secret and is surprising'
-  - '[adj] easy to do or to understand; not complicated'
-  - '[v]  (of two or more events) to take place at the same time'
-  - '[adj] showing you do not think that you are as important as other people'
-  - '[v] to provide enough of what somebody/something needs in order to live or exist'
-  - '[v] to move backwards or forwards or from side to side while hanging from a fixed point; to make something do this'
-  - '[n] a set of physical conditions that show you have a particular disease or medical problem'
-  - '[v] to attract somebody or make somebody want to do or have something, even if they know it is wrong'
-  - '[n] the particular method you use to achieve something'
-  - '[n] a person who pays rent for the use of a room, building, land, etc. to the person who owns it'
-  - '[adj] kind, gentle and loving'
-  - '[n] the period of time when somebody holds an important job, especially a political one; the act of holding an important job'
-  - '[v] to end; to make something end'
-  - '[n] used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.'
-  - '[adj] excellent; wonderful; very large; very great'
   - '[adj] full of life and energy'
   - '[n] behaviour that is evil or immoral; a quality in somebody’s character that is evil or immoral'
   - '[adj] violent and cruel'
@@ -418,7 +364,6 @@ MonoBehaviour:
   - '[n] behaviour or attitudes that show high moral standards'
   - '[adj] telling people your opinions or protesting about something loudly and with confidence'
   - '[v] to make a formal and serious promise to do something or a formal statement that is true'
-  - '[n] the fact of being weak and easily hurt physically or emotionally'
   - '[adj] weak and easily hurt physically or emotionally'
   - '[n] a separate room or area in a hospital for people with the same type of medical condition'
   - '[n] a building where large quantities of goods are stored, especially before they are sent to shops to be sold'
@@ -448,7 +393,6 @@ MonoBehaviour:
   - '[v] to praise or welcome somebody/something publicly'
   - '[n] praise or an award for an achievement that people admire'
   - '[n] talk or arguments used by a person trying to sell something or persuade people to do something'
-  - '[adj]  honest and open; not trying to trick somebody or hide something'
   - '[n]  (in golf/baseball) an unsuccessful attempt to hit the ball'
   - '[v]  (of the moon) to appear slightly smaller each day after being round and full'
   - '[n] polite words or good wishes, especially when used to express praise and approval'
@@ -466,12 +410,10 @@ MonoBehaviour:
   - '[adj] showing signs that something is likely to be successful in the future; promising'
   - '[v] to defeat or be more successful than somebody'
   - '[n] rich, successful, well-educated people, usually from Bangladesh or West Bengal, who are part of a particular social class and considered to have high social status'
-  - '[adj] (especially of a book or film) very successful'
   - '[n] a photographic print of a plan for a building or a machine, with white lines on a blue background'
   - '[n]  something that a person talks about in a very proud way, often to seem more important or clever'
   - '[n] a situation in which people can make a lot of money or be very successful'
-  - '[adj] suddenly extremely popular and successful; establishing somebody’s reputation'
-  - '[adj] in which a performer or type of product is successful for the first time, when it is likely to be even more successful in the future'
+  - '[adj] suddenly extremely popular and successful; establishing reputation'
   - '[n] (in the past) a sailor who attacked ships at sea and stole from them; pirate'
   - '[n] the best and final thing that someone achieves, thought of as making their career or life complete'
   - '[v] to find a way of avoiding a difficulty or a rule'
@@ -482,7 +424,6 @@ MonoBehaviour:
   - '[adj] (of things, not people) producing the result that was intended'
   - '[adj] the same in size, quantity, value, etc. as something else'
   - '[adj] an agreement in which someone agrees to do something bad or dishonest, in return for money, success, or power'
-  - '[n] the extent to which somebody/something is liked or approved of'
   - '[v] to tell somebody that you are pleased about their success or achievements'
   - '[adj] (of a plan, machine, method, etc.) very well designed and easy to use so that it cannot fail and you cannot use it wrongly'
   - '[n] a strong position in a business, profession, etc. from which somebody can make progress and achieve success'
@@ -490,7 +431,7 @@ MonoBehaviour:
   - '[n] the successful result of a plan, a process or an activity'
   - '[adj] designed or organized to achieve a particular purpose, or to be suitable for a particular group of people'
   - '[adj] very impressive and successful'
-  - '[v] to show that you are happy about your own success or somebody else’s failure, in an unpleasant way'
+  - '[v] to show that you are happy about your own success or  failure of others, in an unpleasant way'
   - '[adv] in a way that deserves or brings great success and makes somebody/something famous'
   - '[n]  the cup or bowl believed to have been used by Jesus Christ before he died, that became a holy thing that people wanted to find'
   - '[v] to take a strong hold of somebody/something'
@@ -516,63 +457,25 @@ MonoBehaviour:
   - '[adj] (of a time) suitable for doing a particular thing, so that it is likely to be successful'
   - '[v] to achieve better results than somebody/something'
   - '[v] to be faster, better or more successful than somebody you are competing against'
-  - '[n] a person who tries too hard to be successful in their work'
   - '[n] a person, organization or country that is successful or in a stronger position than others, especially when they seem to have an unfair advantage'
-  - '[adj] determined to achieve a particular aim despite difficulties or opposition'
   - '[n] the quality of being determined to achieve a particular aim despite difficulties or opposition'
   - '[n] a fact or an event in nature or society, especially one that is not fully understood'
   - '[n] the most important or successful part of something'
   - '[adj] able to be done; likely to be successful'
   - '[adj]  likely to produce a successful result'
   - '[n] a person who is likely to be successful in a competition or in a particular career'
-  - '[adj] (of somebodys face) having strong, attractive features'
+  - '[adj] (face) having strong, attractive features'
   - '[adj] looking or feeling too pleased about something you have done or achieved'
   - '[n]  the act of trying very hard to achieve something'
   - '[v] to deal successfully with a difficulty; overcome'
   - '[n] ​the extra energy, power, success, etc. that is achieved by two or more people, companies or elements working together, instead of on their own'
   - '[n] a person who is successful in business or industry and has become rich and powerful'
-  - '[adj] too proud of your own abilities or achievements'
   - '[n] the fact of being too proud of your own appearance, abilities or achievements'
   - '[n] the wine that was produced in a particular year or place; the year in which it was produced'
   - '[n] a dance in which two people dance together to a regular rhythm; a piece of music for this dance'
   - '[n] a very impressive and clever achievement; great skill'
   - '[n] a person who is very successful at a young age'
   - '[n] the highest point that the sun or moon reaches in the sky, directly above you'
-  - '[adj] extremely silly; not logical and sensible'
-  - '[v]  to gradually get more and more of something over a period of time'
-  - '[n] the act of getting something, especially knowledge, a skill, etc.'
-  - '[n] a person who works to achieve political or social change, especially as a member of an organization with particular aims'
-  - '[v]  to stick to something'
-  - '[adj] connected with beauty and art and the understanding of beautiful things'
-  - '[n] ​the situation that exists as a result of an important (and usually unpleasant) event, especially a war, an accident, etc.'
-  - '[n] a real or imagined line that marks the limits or edges of something and separates it from other things or places; a dividing line'
-  - '[n] a failure to do something that must be done by law'
-  - '[n]  the system of official rules and ways of doing things that a government or an organization has, especially when these seem to be too complicated'
-  - '[n] the goods carried in a ship, an aircraft or a motor vehicle'
-  - '[n] enlarge imagecows and bulls that are kept as farm animals for their milk or meat'
-  - '[adj] (of a disease) lasting for a long time; difficult to cure'
-  - '[n] a drink usually made from a mixture of one or more strong alcoholic drinks and fruit juice. It can also be made without alcohol.'
-  - '[v] to take control of a country or city and its people by force'
-  - '[adj] believing that people only do things to help themselves rather than for good or honest reasons'
-  - '[n] what happens or appears if you do not make any other choice or change, especially in a computer program'
-  - '[n] a sum of money that is paid into a bank account'
-  - '[n] a situation that makes problems, often one in which you have to make a very difficult choice between things of equal importance'
-  - '[n]  the practice of treating somebody or a particular group in society less fairly than others'
-  - '[n] a large number of cases of a particular disease or medical condition happening at the same time in a particular community'
-  - '[n] the state of being sent to live in another country that is not your own, especially for political reasons or as a punishment'
-  - '[n] a person who comes from a different country'
-  - '[n] a ceremony, often a religious one, for burying or cremating a dead person'
-  - '[n] a member of a small group of soldiers who are not part of an official army and who fight against official soldiers, usually to try to change the government'
-  - '[n] the act of annoying or worrying somebody by putting pressure on them or saying or doing unpleasant things to them'
-  - '[adj]  coming from a particular place and having lived there for a long time before other people came there; relating to, belonging to or developed by these people'
-  - '[adj] having a lot of influence on somebody/something'
-  - '[n] a country that has a king or queen as head of state '
-  - '[n]  the ability to read and write'
-  - '[adj] required by law'
-  - '[n] a report containing news of the activities of a club or organization that is sent regularly to all its members'
-  - '[n] a person who has been formally suggested for a job, a prize, etc.'
-  - '[n] a person who is the first to study and develop a particular area of knowledge, culture, etc. that other people then continue to develop'
-  - '[v] to formally promise to give or do something'
   - '[adj] (of paper or cloth) fresh and clean; new and slightly stiff without any folds in it'
   - '[n] a weather condition in which the pressure of the air becomes lower, often causing wind and rain'
   - '[n] a severe flood; a sudden very heavy fall of rain'
@@ -583,7 +486,7 @@ MonoBehaviour:
   - '[adj] attractive and exciting in a mysterious way'
   - '[adj] so beautiful or interesting that you cannot think about anything else'
   - '[n] a mark, usually not regular in shape, on skin, plants, material, etc.'
-  - '[adj] (of a persons hair) in a style that raises it up and back from the head in a high round shape'
+  - '[adj] (of a person’s hair) in a style that raises it up and back from the head in a high round shape'
   - '[adj] (of a person) extremely pale, thin and looking ill'
   - '[n] an area of thick hard skin on a hand or foot, usually caused by rubbing'
   - '[adj] extremely unpleasant and causing horror'
@@ -592,16 +495,13 @@ MonoBehaviour:
   - '[adj] showing you do not care or are not anxious about what you are doing'
   - '[v] to be slow to do or accept something because you are surprised or shocked by it'
   - '[n] he state of feeling bored; the fact of being very boring'
-  - '[adj] causing a lot of angry public discussion and disagreement'
   - '[adj] sad and disappointed because you have failed and you did not expect to'
   - '[adj] unhappy and disappointed'
   - '[adj] tired and wanting to sleep'
-  - '[adj] extremely surprised and/or shocked'
   - '[v] to make a sudden movement with your face or body as a result of pain, fear, surprise, etc.'
   - '[v] to feel very sad, especially because somebody has died'
-  - '[v]  to drink something quickly and in large amounts.'
+  - '[v]  to drink something quickly and in large amounts. '
   - '[adj] making it difficult for something to happen or to be achieved'
-  - '[v] to breathe too quickly because you are very frightened or excited'
   - '[n] a happy and peaceful place, event or experience, especially one connected with the countryside'
   - '[v] to shine light on something'
   - '[adj]  having a very strong feeling of love or attraction for somebody/something so that you cannot think clearly and in a sensible way'

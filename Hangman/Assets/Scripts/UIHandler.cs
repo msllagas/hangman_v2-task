@@ -25,11 +25,14 @@ public class UIHandler : MonoBehaviour
     public Animator hintPanel;
     [Header("STATS")] // 44
     public TMP_Text statsText; // 44
-    public TMP_Text TotalWins;
-    public TMP_Text TotalLosses;
-    public TMP_Text GamesPlayed;
-    public TMP_Text WinRatio;
-    //public TMP_Text FastestTime;
+    /*    public TMP_Text TotalWins;
+        public TMP_Text TotalLosses;
+        public TMP_Text GamesPlayed;
+        public TMP_Text WinRatio;
+        public TMP_Text FastestTime;*/
+    [Header("Data Placeholder")]
+    public TMP_Text MotivationLevel;
+    public TMP_Text AverageMotivationLevel;
     public Stats saveFile; // 44
 /*    [Header("POINTS")]
     public TMP_Text pointsText;*/
@@ -103,8 +106,8 @@ public class UIHandler : MonoBehaviour
     } // 45
     public void CreateUser()
     {
-       // Player newPlayer = new Player(int.Parse(TotalWins.text), int.Parse(TotalLosses.text), int.Parse(GamesPlayed.text), float.Parse(WinRatio.text), int.Parse(FastestTime.text));
-        Player newPlayer = new Player(int.Parse(TotalWins.text), int.Parse(TotalLosses.text), int.Parse(GamesPlayed.text), float.Parse(WinRatio.text));
+        // Player newPlayer = new Player(int.Parse(TotalWins.text), int.Parse(TotalLosses.text), int.Parse(GamesPlayed.text), float.Parse(WinRatio.text), int.Parse(FastestTime.text));
+        Player newPlayer = new Player(float.Parse(MotivationLevel.text), float.Parse(AverageMotivationLevel.text));
         //User newUser = new User(1, 2, 3, 4f, 5);
         string json = JsonUtility.ToJson(newPlayer);
 
@@ -167,18 +170,30 @@ public class UIHandler : MonoBehaviour
     void UpdateStatsText()
     {
         StatsData statsList = SaveSystem.LoadStats(); 
-        statsText.text =
+/*        statsText.text =
             "" + statsList.totalWins + "\n" +
             "" + statsList.totalLosses + "\n" +
             "" + statsList.gamesPlayed + "\n" +
             "" + statsList.winRatio + "%\n" +
             "" + statsList.motivationLevel + "s\n" +
-            "" + statsList.centralTend + "s\n";
+            "" + statsList.centralTend + "s\n";*/
 
-        TotalWins.text = statsList.totalWins.ToString();
-        TotalLosses.text = statsList.totalLosses.ToString();
-        GamesPlayed.text = statsList.gamesPlayed.ToString();
-        WinRatio.text = statsList.winRatio.ToString();
+        statsText.text =
+            "" + statsList.totalWins + "\n" +
+            "" + statsList.totalLosses + "\n" +
+            "" + statsList.gamesPlayed + "\n" +
+            "" + statsList.winRatio + "%\n" +
+            "" + statsList.fastestTime + "s\n";
+
+        MotivationLevel.text = statsList.motivationLevel.ToString();
+        AverageMotivationLevel.text = statsList.centralTend.ToString();
+
+
+        /*        TotalWins.text = statsList.totalWins.ToString();
+                TotalLosses.text = statsList.totalLosses.ToString();
+                GamesPlayed.text = statsList.gamesPlayed.ToString();
+                WinRatio.text = statsList.winRatio.ToString()*/
+        ;
         //FastestTime.text = statsList.FastestTime.ToString();
     } // 45
 
@@ -256,11 +271,11 @@ public class UIHandler : MonoBehaviour
         if (statsList.gamesPlayed > 0)
         {
             motivationLevel = rulesEvaluator(timeonTask, numRepeatTask, performance, numHelpRequest);
-            statsFile.SaveStats(true, true, motivationLevel, numRepeatTask); // 44
+            statsFile.SaveStats(true, true, motivationLevel, numRepeatTask, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(true, false, 1000f, numRepeatTask); // 44
+            statsFile.SaveStats(true, false, 1000f, numRepeatTask, playTime); // 44
         }
 
 
@@ -286,11 +301,11 @@ public class UIHandler : MonoBehaviour
         if (statsList.gamesPlayed > 0)
         {
             motivationLevel = rulesEvaluator(timeonTask, numRepeatTask, performance, numHelpRequest);
-            statsFile.SaveStats(false, true, motivationLevel, numRepeatTask); // 44
+            statsFile.SaveStats(false, true, motivationLevel, numRepeatTask, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(false, false, 1000f ,numRepeatTask); // 44
+            statsFile.SaveStats(false, false, 1000f ,numRepeatTask, playTime); // 44
         }
 
         gameOverPanel.SetTrigger("open");

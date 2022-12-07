@@ -34,13 +34,21 @@ public class MenuHandler : MonoBehaviour
     void UpdateStatsText()
     {
         StatsData statsList = SaveSystem.LoadStats();
-        statsText.text =
+/*        statsText.text =
             "" + statsList.totalWins + "\n" +
             "" + statsList.totalLosses + "\n" +
             "" + statsList.gamesPlayed + "\n" +
             "" + statsList.winRatio + "%\n" +
             "" + statsList.motivationLevel + "s\n" +
-            "" + statsList.centralTend + "s\n";
+            "" + statsList.centralTend + "s\n";*/
+
+        statsText.text =
+            "" + statsList.totalWins + "\n" +
+            "" + statsList.totalLosses + "\n" +
+            "" + statsList.gamesPlayed + "\n" +
+            "" + statsList.winRatio + "%\n" +
+            "" + statsList.fastestTime + "s\n";
+
 
     } // 45
     public void OpenSettings()

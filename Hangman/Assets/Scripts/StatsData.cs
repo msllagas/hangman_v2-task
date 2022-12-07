@@ -16,6 +16,7 @@ public class StatsData
     public float centralTend;
     public float motivationLevel;
     public int checker;
+    public int fastestTime;
 
     //public int points;
     public StatsData ( Stats statsdata )

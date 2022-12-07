@@ -9,12 +9,13 @@ public class Stats
     public int totalLosses;
     public int gamesPlayed;
     public float winRatio;
+    public int fastestTime = 9999; // in seconds
     public int checker;
     public float motivationLevel;
     public float actualML;
     public float totalML;
     public float centralTend;
-    public void SaveStats(bool hasWonGame, bool hasplayedGame, float calculatedML, int data)
+    public void SaveStats(bool hasWonGame, bool hasplayedGame, float calculatedML, int data, int playtime)
     {
 
         StatsData statsList = SaveSystem.LoadStats();
@@ -29,6 +30,11 @@ public class Stats
             statsList.totalML += 3f;
             statsList.actualML += calculatedML;
             statsList.centralTend = (float)Math.Round((statsList.actualML / statsList.totalML) * 100, 2);
+        }
+
+        if (hasWonGame)
+        {
+            statsList.fastestTime = (playtime >= fastestTime) ? fastestTime : playtime;
         }
 
         statsList.motivationLevel = calculatedML;

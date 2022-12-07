@@ -7,6 +7,7 @@ public class ButtonCreator : MonoBehaviour
 {
     public static ButtonCreator instance; // 26
 
+    public TMP_Text hintsLeft;
 
     public GameObject buttonPrefab;
     string[] letterToUse = new string[26] {"A", "B", "C", "D", "E",
@@ -28,6 +29,7 @@ public class ButtonCreator : MonoBehaviour
     void Start()
     {
         PopulateKeyboard();
+        HintsLeft();
     }
 
     void PopulateKeyboard()
@@ -57,7 +59,12 @@ public class ButtonCreator : MonoBehaviour
             return;
         } // 27
         GameManager.instance.maxHints--; // 27
+        HintsLeft();
         int randomIndex = Random.Range(0, letterList.Count);
         letterList[randomIndex].Sendletter(true);
     } // 26
+    public void HintsLeft()
+    {
+        hintsLeft.text = "Hint: " + GameManager.instance.maxHints.ToString();
+    }
 }

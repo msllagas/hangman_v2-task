@@ -234,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 27.178955, y: 36.500977}
+  m_AnchoredPosition: {x: 30.09998, y: 26.90002}
   m_SizeDelta: {x: 18, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &61614860
@@ -796,7 +796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 35.500984}
+  m_AnchoredPosition: {x: 6, y: 26.90002}
   m_SizeDelta: {x: 104.9354, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &214034382
@@ -917,6 +917,8 @@ MonoBehaviour:
   settingsPanel: {fileID: 0}
   hintPanel: {fileID: 0}
   statsText: {fileID: 1762805015}
+  MotivationLevel: {fileID: 0}
+  AverageMotivationLevel: {fileID: 0}
   winnerSound: {fileID: 0}
   backgroundSound: {fileID: 0}
   gameOverSound: {fileID: 0}
@@ -995,7 +997,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   bgmSlider: {fileID: 0}
-  image: {fileID: 0}
+  victory_losePanel: {fileID: 0}
+  settings_StatsPanel: {fileID: 0}
   selectedButton: 0
 --- !u!4 &271535053
 Transform:
@@ -3753,10 +3756,8 @@ MonoBehaviour:
 
     Win Rate:
 
-    Motivation
-    Level:
-
-    Central Tendency:'
+    Fastest
+    Time:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37019bee008ca2c4c85f238c474340b7, type: 2}
   m_sharedMaterial: {fileID: 8973214066790018233, guid: 37019bee008ca2c4c85f238c474340b7, type: 2}
