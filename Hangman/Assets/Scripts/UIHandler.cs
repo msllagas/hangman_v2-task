@@ -48,9 +48,9 @@ public class UIHandler : MonoBehaviour
     public AnimationCurve TimeonTaskshort;
     public AnimationCurve TimeonTaskmedium;
     public AnimationCurve TimeonTasklong;
-    public AnimationCurve NumRepeatTaskLow;
-    public AnimationCurve NumRepeatTaskMed;
-    public AnimationCurve NumRepeatTaskHigh;
+    public AnimationCurve Low;
+    public AnimationCurve Med;
+    public AnimationCurve High;
     public AnimationCurve PerformanceLow;
     public AnimationCurve PerformanceMid;
     public AnimationCurve PerformanceHigh;
@@ -93,7 +93,7 @@ public class UIHandler : MonoBehaviour
 
     void Start()
     {
-
+        Debug.Log("uihandler");
         BackGroundMusic();
         InitialSaveFile();
         UpdateStatsText();
@@ -263,19 +263,19 @@ public class UIHandler : MonoBehaviour
         Stats statsFile = new Stats();
         StatsData statsList = SaveSystem.LoadStats();
 
-        int numRepeatTask = nrtEvaluateValue(currentMistakes);
+        
         float currentWinRatio = statsList.winRatio;
         int performance = perfEvaluateValue(currentWinRatio);
         int timeonTask = totEvaluateValue(playTime);
         int numHelpRequest = nhrEvaluateValue(remHints);
         if (statsList.gamesPlayed > 0)
         {
-            motivationLevel = rulesEvaluator(timeonTask, numRepeatTask, performance, numHelpRequest);
-            statsFile.SaveStats(true, true, motivationLevel, numRepeatTask, playTime); // 44
+            motivationLevel = rulesEvaluator(timeonTask, performance, numHelpRequest);
+            statsFile.SaveStats(true, true, motivationLevel, timeonTask, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(true, false, 1000f, numRepeatTask, playTime); // 44
+            statsFile.SaveStats(true, false, 1000f, timeonTask, playTime); // 44
         }
 
 
@@ -293,19 +293,18 @@ public class UIHandler : MonoBehaviour
         Stats statsFile = new Stats();
         StatsData statsList = SaveSystem.LoadStats();
 
-        int numRepeatTask = nrtEvaluateValue(currentMistakes);
         float currentWinRatio = statsList.winRatio;
         int performance = perfEvaluateValue(currentWinRatio);
         int timeonTask = totEvaluateValue(playTime);
         int numHelpRequest = nhrEvaluateValue(remHints);
         if (statsList.gamesPlayed > 0)
         {
-            motivationLevel = rulesEvaluator(timeonTask, numRepeatTask, performance, numHelpRequest);
-            statsFile.SaveStats(false, true, motivationLevel, numRepeatTask, playTime); // 44
+            motivationLevel = rulesEvaluator(timeonTask, performance, numHelpRequest);
+            statsFile.SaveStats(false, true, motivationLevel, timeonTask, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(false, false, 1000f ,numRepeatTask, playTime); // 44
+            statsFile.SaveStats(false, false, 1000f , timeonTask, playTime); // 44
         }
 
         gameOverPanel.SetTrigger("open");
@@ -432,12 +431,12 @@ public class UIHandler : MonoBehaviour
         return totNumber;
     }
 
-    //NumRepeatTaskMistakes
-    public int nrtEvaluateValue(int mistakes)
+    //Mistakes
+    /*public int nrtEvaluateValue(int mistakes)
     {
-        nrtLowValue = NumRepeatTaskLow.Evaluate(mistakes);
-        nrtMedValue = NumRepeatTaskMed.Evaluate(mistakes);
-        nrtHighValue = NumRepeatTaskHigh.Evaluate(mistakes);
+        nrtLowValue = Low.Evaluate(mistakes);
+        nrtMedValue = Med.Evaluate(mistakes);
+        nrtHighValue = High.Evaluate(mistakes);
 
         if (nrtLowValue > nrtMedValue && nrtLowValue > nrtHighValue)
         {
@@ -453,8 +452,9 @@ public class UIHandler : MonoBehaviour
         }
         return nrtNumber;
     }
+    */
 
-    //NumRepeatTasksWins
+    //sWins
     public int perfEvaluateValue(float winratio)
     {
         perfLowValue = PerformanceLow.Evaluate(winratio);
@@ -498,413 +498,144 @@ public class UIHandler : MonoBehaviour
         return nhrNumber;
     }
 
-    public float rulesEvaluator(int TimeonTask, int NumRepeatTask, int Performance, int NumHelpRequest)
+    public float rulesEvaluator(int TimeonTask, int Performance, int NumHelpRequest)
     {
         //1
-        if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 3)
+        if (TimeonTask == 3 && Performance == 1 && NumHelpRequest == 1)
         {
-            motivationLevel = 2.5f;
+            motivationLevel = 1.66f;
         }
         //2
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 2)
+        else if (TimeonTask == 3 &&   Performance == 1 && NumHelpRequest == 2)
         {
-            motivationLevel = 2.25f;
+            motivationLevel = 2f;
         }
         //3
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 1)
+        else if (TimeonTask == 3 &&   Performance == 1 && NumHelpRequest == 3)
         {
-            motivationLevel = 2f;
+            motivationLevel = 2.33f;
         }
         //4
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 3)
+        else if (TimeonTask == 3 && Performance == 2 && NumHelpRequest == 1)
         {
-            motivationLevel = 2.75f;
+            motivationLevel = 2f;
         }
         //5
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 2)
+        else if (TimeonTask == 3  && Performance == 2 && NumHelpRequest == 2)
         {
-            motivationLevel = 2f;
+            motivationLevel = 2.33f;
         }
         //6
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 1)
+        else if (TimeonTask == 3  && Performance == 2 && NumHelpRequest == 3)
         {
-            motivationLevel = 2f;
+            motivationLevel = 2.66f;
         }
         //7
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 1)
+        else if (TimeonTask == 3  && Performance == 3 && NumHelpRequest == 1)
         {
-            motivationLevel = 2.5f;
+            motivationLevel = 2.33f;
         }
         //8
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 2)
+        else if (TimeonTask == 3 && Performance == 3 && NumHelpRequest == 2)
         {
-            motivationLevel = 2.75f;
+            motivationLevel = 2.66f;
         }
         //9
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 3)
+        else if (TimeonTask == 3  && Performance == 3 && NumHelpRequest == 3)
         {
             motivationLevel = 3f;
         }
         //10
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 1)
+        else if (TimeonTask == 2  && Performance == 1 && NumHelpRequest == 1)
         {
-            motivationLevel = 1.75f;
+            motivationLevel = 1.33f;
         }
         //11
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 2)
+        else if (TimeonTask == 2  && Performance == 1 && NumHelpRequest == 2)
         {
-            motivationLevel = 2f;
+            motivationLevel = 1.66f;
         }
         //12
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 3)
+        else if (TimeonTask == 2  && Performance == 1 && NumHelpRequest == 3)
         {
-            motivationLevel = 2.25f;
+            motivationLevel = 2f;
         }
         //13
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 1)
+        else if (TimeonTask == 2  && Performance == 2 && NumHelpRequest == 1)
         {
-            motivationLevel = 2f;
+            motivationLevel = 1.66f;
         }
         //14
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 2)
+        else if (TimeonTask == 2  && Performance == 2 && NumHelpRequest == 2)
         {
-            motivationLevel = 2.25f;
+            motivationLevel = 2f;
         }
         //15
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 3)
+        else if (TimeonTask == 2  && Performance == 2 && NumHelpRequest == 3)
         {
-            motivationLevel = 2.5f;
+            motivationLevel = 2.33f;
         }
         //16
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 1)
+        else if (TimeonTask == 2  && Performance == 3 && NumHelpRequest == 1)
         {
-            motivationLevel = 2.25f;
+            motivationLevel = 2f;
         }
         //17
-        else if (TimeonTask == 3 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 2)
+        else if (TimeonTask == 2  && Performance == 3 && NumHelpRequest == 2)
         {
-            motivationLevel = 2.5f;
+            motivationLevel = 2.33f;
         }
         //18
-        else if (TimeonTask == 3 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 3)
+        else if (TimeonTask == 2 && Performance == 3 && NumHelpRequest == 3)
         {
-            motivationLevel = 2.75f;
+            motivationLevel = 2.66f;
         }
         //19
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.5f;
-        }
-        //20
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.75f;
-        }
-        //21
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2f;
-        }
-        //22
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.75f;
-        }
-        //23
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2f;
-        }
-        //24
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.25f;
-        }
-        //25
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 2f;
-        }
-        //26
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2.25f;
-        }
-        //27
-        else if (TimeonTask == 3 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.5f;
-        }
-        //28
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.25f;
-        }
-        //29
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2f;
-        }
-        //30
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.75f;
-        }
-        //31
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.5f;
-        }
-        //32
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2.25f;
-        }
-        //33
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 1)
-        {
-            motivationLevel = 2f;
-        }
-        //34
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 2.25f;
-        }
-        //35
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2.5f;
-        }
-        //36
-        else if (TimeonTask == 2 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.75f;
-        }
-        //37
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.5f;
-        }
-        //38
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.75f;
-        }
-        //39
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2f;
-        }
-        //40
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.75f;
-        }
-        //41
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2f;
-        }
-        //42
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.25f;
-        }
-        //43
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 2f;
-        }
-        //44
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2.25f;
-        }
-        //45
-        else if (TimeonTask == 2 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 3)
-        {
-            motivationLevel = 1.75f;
-        }
-        //46
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.25f;
-        }
-        //47
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.5f;
-        }
-        //48
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 3)
-        {
-            motivationLevel = 1.75f;
-        }
-        //49
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.5f;
-        }
-        //50
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.75f;
-        }
-        //51
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2f;
-        }
-        //52
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.75f;
-        }
-        //53
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2f;
-        }
-        //54
-        else if (TimeonTask == 2 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.25f;
-        }
-        //55
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2f;
-        }
-        //56
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.75f;
-        }
-        //57
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 1 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.5f;
-        }
-        //58
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.25f;
-        }
-        //59
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2f;
-        }
-        //60
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 2 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.75f;
-        }
-        //61
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 2f;
-        }
-        //62
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2.25f;
-        }
-        //63
-        else if (TimeonTask == 1 && NumRepeatTask == 3 && Performance == 3 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.5f;
-        }
-        //64
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.25f;
-        }
-        //65
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.5f;
-        }
-        //66
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 1 && NumHelpRequest == 3)
-        {
-            motivationLevel = 1.75f;
-        }
-        //67
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.5f;
-        }
-        //68
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.75f;
-        }
-        //69
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2;
-        }
-        //70
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.75f;
-        }
-        //71
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 2f;
-        }
-        //72
-        else if (TimeonTask == 1 && NumRepeatTask == 2 && Performance == 3 && NumHelpRequest == 3)
-        {
-            motivationLevel = 2.25f;
-        }
-        //73
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 1)
+        else if (TimeonTask == 1 && Performance == 1 && NumHelpRequest == 1)
         {
             motivationLevel = 1f;
         }
-        //74
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 2)
+        //20
+        else if (TimeonTask == 1 && Performance == 1 && NumHelpRequest == 2)
         {
-            motivationLevel = 1.25f;
+            motivationLevel = 1.33f;
         }
-        //75
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 1 && NumHelpRequest == 3)
+        //21
+        else if (TimeonTask == 1 && Performance == 1 && NumHelpRequest == 3)
         {
-            motivationLevel = 1.5f;
+            motivationLevel = 1.66f;
         }
-        //76
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 1)
+        //22
+        else if (TimeonTask == 1 && Performance == 2 && NumHelpRequest == 1)
         {
-            motivationLevel = 1.25f;
+            motivationLevel = 1.33f;
         }
-        //77
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 2)
+        //23
+        else if (TimeonTask == 1 && Performance == 2 && NumHelpRequest == 2)
         {
-            motivationLevel = 1.5f;
+            motivationLevel = 1.66f;
         }
-        //78
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 2 && NumHelpRequest == 3)
-        {
-            motivationLevel = 1.75f;
-        }
-        //79
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 1)
-        {
-            motivationLevel = 1.5f;
-        }
-        //80
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 2)
-        {
-            motivationLevel = 1.75f;
-        }
-        //81
-        else if (TimeonTask == 1 && NumRepeatTask == 1 && Performance == 3 && NumHelpRequest == 3)
+        //24
+        else if (TimeonTask == 1 && Performance == 2 && NumHelpRequest == 3)
         {
             motivationLevel = 2f;
         }
+        //25
+        else if (TimeonTask == 1 && Performance == 3 && NumHelpRequest == 1)
+        {
+            motivationLevel = 1.66f;
+        }
+        //26
+        else if (TimeonTask == 1 && Performance == 3 && NumHelpRequest == 2)
+        {
+            motivationLevel = 2f;
+        }
+        //27
+        else if (TimeonTask == 1 && Performance == 3 && NumHelpRequest == 3)
+        {
+            motivationLevel = 2.33f;
+        }
+      
 
 
         return motivationLevel;
