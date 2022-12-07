@@ -15,7 +15,6 @@ public class UIHandler : MonoBehaviour
     public static UIHandler instance; // 38
     private string userID;
     private DatabaseReference dbReference;
-    public TaskManager tasks;
 
     //public Animator firstCloud;
     //public Animator secondCloud;
@@ -272,11 +271,11 @@ public class UIHandler : MonoBehaviour
         if (statsList.gamesPlayed > 0)
         {
             motivationLevel = rulesEvaluator(timeonTask, performance, numHelpRequest);
-            statsFile.SaveStats(true, true, motivationLevel, timeonTask); // 44
+            statsFile.SaveStats(true, true, motivationLevel, timeonTask, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(true, false, 1000f, timeonTask); // 44
+            statsFile.SaveStats(true, false, 1000f, timeonTask, playTime); // 44
         }
 
 
@@ -301,11 +300,11 @@ public class UIHandler : MonoBehaviour
         if (statsList.gamesPlayed > 0)
         {
             motivationLevel = rulesEvaluator(timeonTask, performance, numHelpRequest);
-            statsFile.SaveStats(false, true, motivationLevel, timeonTask); // 44
+            statsFile.SaveStats(false, true, motivationLevel, timeonTask, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(false, false, 1000f , timeonTask); // 44
+            statsFile.SaveStats(false, false, 1000f , timeonTask, playTime); // 44
         }
 
         gameOverPanel.SetTrigger("open");
