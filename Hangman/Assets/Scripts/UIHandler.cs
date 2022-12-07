@@ -25,14 +25,14 @@ public class UIHandler : MonoBehaviour
     public Animator hintPanel;
     [Header("STATS")] // 44
     public TMP_Text statsText; // 44
-    /*    public TMP_Text TotalWins;
-        public TMP_Text TotalLosses;
-        public TMP_Text GamesPlayed;
-        public TMP_Text WinRatio;
-        public TMP_Text FastestTime;*/
+/*    public TMP_Text TotalWins;
+    public TMP_Text TotalLosses;
+    public TMP_Text GamesPlayed;
+    public TMP_Text WinRatio;
+    public TMP_Text FastestTime;
     [Header("Data Placeholder")]
     public TMP_Text MotivationLevel;
-    public TMP_Text AverageMotivationLevel;
+    public TMP_Text AverageMotivationLevel;*/
     public Stats saveFile; // 44
 /*    [Header("POINTS")]
     public TMP_Text pointsText;*/
@@ -106,9 +106,8 @@ public class UIHandler : MonoBehaviour
     } // 45
     public void CreateUser()
     {
-        // Player newPlayer = new Player(int.Parse(TotalWins.text), int.Parse(TotalLosses.text), int.Parse(GamesPlayed.text), float.Parse(WinRatio.text), int.Parse(FastestTime.text));
-        Player newPlayer = new Player(float.Parse(MotivationLevel.text), float.Parse(AverageMotivationLevel.text));
-        //User newUser = new User(1, 2, 3, 4f, 5);
+        StatsData statsList = SaveSystem.LoadStats();
+        Player newPlayer = new Player(statsList.motivationLevel, statsList.centralTend); // subject to change
         string json = JsonUtility.ToJson(newPlayer);
 
         dbReference.Child("players").Child(userID).SetRawJsonValueAsync(json);
@@ -185,16 +184,14 @@ public class UIHandler : MonoBehaviour
             "" + statsList.winRatio + "%\n" +
             "" + statsList.fastestTime + "s\n";
 
-        MotivationLevel.text = statsList.motivationLevel.ToString();
+
+/*        MotivationLevel.text = statsList.motivationLevel.ToString();
         AverageMotivationLevel.text = statsList.centralTend.ToString();
-
-
-        /*        TotalWins.text = statsList.totalWins.ToString();
-                TotalLosses.text = statsList.totalLosses.ToString();
-                GamesPlayed.text = statsList.gamesPlayed.ToString();
-                WinRatio.text = statsList.winRatio.ToString()*/
-        ;
-        //FastestTime.text = statsList.FastestTime.ToString();
+        TotalWins.text = statsList.totalWins.ToString();
+        TotalLosses.text = statsList.totalLosses.ToString();
+        GamesPlayed.text = statsList.gamesPlayed.ToString();
+        WinRatio.text = statsList.winRatio.ToString()
+        FastestTime.text = statsList.FastestTime.ToString();*/
     } // 45
 
     void BackGroundMusic()

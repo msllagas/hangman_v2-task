@@ -2008,15 +2008,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3c5cdcd7e8097b459b4fcfb6aab76d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tasks: {fileID: 0}
   gameOverPanel: {fileID: 602793623}
   statsPanel: {fileID: 1061131419}
   winPanel: {fileID: 1763514114}
   settingsPanel: {fileID: 330122049}
   hintPanel: {fileID: 1648106580}
   statsText: {fileID: 1875097766}
-  MotivationLevel: {fileID: 1671924899}
-  AverageMotivationLevel: {fileID: 1854699915}
   winnerSound: {fileID: 8300000, guid: e91afa2d1a9df95489844ef573d7756c, type: 3}
   backgroundSound: {fileID: 8300000, guid: 6490823e637e36745b5cdbeaba3f83c6, type: 3}
   gameOverSound: {fileID: 8300000, guid: 3c1ed3fb95e06ce4f9869d2f75e45efe, type: 3}
@@ -2989,7 +2986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &475673707
 RectTransform:
   m_ObjectHideFlags: 0
