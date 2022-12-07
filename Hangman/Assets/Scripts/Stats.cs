@@ -36,6 +36,7 @@ public class Stats
         {
             statsList.fastestTime = (playtime >= fastestTime) ? fastestTime : playtime;
         }
+        
      
         statsList.motivationLevel = calculatedML;
         

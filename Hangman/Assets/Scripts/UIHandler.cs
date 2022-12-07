@@ -48,9 +48,6 @@ public class UIHandler : MonoBehaviour
     public AnimationCurve TimeonTaskshort;
     public AnimationCurve TimeonTaskmedium;
     public AnimationCurve TimeonTasklong;
-    public AnimationCurve Low;
-    public AnimationCurve Med;
-    public AnimationCurve High;
     public AnimationCurve PerformanceLow;
     public AnimationCurve PerformanceMid;
     public AnimationCurve PerformanceHigh;
