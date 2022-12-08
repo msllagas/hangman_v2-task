@@ -100,7 +100,9 @@ public class UIHandler : MonoBehaviour
     public void CreateUser()
     {
         StatsData statsList = SaveSystem.LoadStats();
-        Player newPlayer = new Player(statsList.motivationLevel, statsList.centralTend); // subject to change
+        float motLevPerc = (statsList.motivationLevel / 3) * 100;
+        float aveMLPerc = (statsList.centralTend / 3) * 100;
+        Player newPlayer = new Player(statsList.motivationLevel, statsList.centralTend, motLevPerc, aveMLPerc); // subject to change
         string json = JsonUtility.ToJson(newPlayer);
 
         dbReference.Child("players").Child(userID).SetRawJsonValueAsync(json);
