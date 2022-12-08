@@ -48,9 +48,6 @@ public class UIHandler : MonoBehaviour
     public AnimationCurve TimeonTaskshort;
     public AnimationCurve TimeonTaskmedium;
     public AnimationCurve TimeonTasklong;
-    public AnimationCurve Low;
-    public AnimationCurve Med;
-    public AnimationCurve High;
     public AnimationCurve PerformanceLow;
     public AnimationCurve PerformanceMid;
     public AnimationCurve PerformanceHigh;
@@ -61,10 +58,6 @@ public class UIHandler : MonoBehaviour
     float totshortValue = 0f;
     float totmedValue = 0f;
     float totlongValue = 0f;
-    int nrtNumber;
-    float nrtLowValue = 0f;
-    float nrtMedValue = 0f;
-    float nrtHighValue = 0f;
     int perfNumber;
     float perfLowValue = 0f;
     float perfMedValue = 0f;
@@ -255,7 +248,7 @@ public class UIHandler : MonoBehaviour
         Save();
     }
 
-    public void WinCondition(int playTime, int currentMistakes, int remHints) // could pass in mistakes used and time used
+    public void WinCondition(int playTime, int remHints) // could pass in mistakes used and time used
     {
         Stats statsFile = new Stats();
         StatsData statsList = SaveSystem.LoadStats();
@@ -268,11 +261,11 @@ public class UIHandler : MonoBehaviour
         if (statsList.gamesPlayed > 0)
         {
             motivationLevel = rulesEvaluator(timeonTask, performance, numHelpRequest);
-            statsFile.SaveStats(true, true, motivationLevel, timeonTask, playTime); // 44
+            statsFile.SaveStats(true, true, motivationLevel, numHelpRequest, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(true, false, 1000f, timeonTask, playTime); // 44
+            statsFile.SaveStats(true, false, 1000f, numHelpRequest, playTime); // 44
         }
 
 
@@ -285,7 +278,7 @@ public class UIHandler : MonoBehaviour
             audioSource.PlayOneShot(winnerSound, 0.7f);
         }
     }
-    public void LoseCondition(int playTime, int currentMistakes, int remHints) // could pass in mistakes used and time used
+    public void LoseCondition(int playTime, int remHints) // could pass in mistakes used and time used
     {
         Stats statsFile = new Stats();
         StatsData statsList = SaveSystem.LoadStats();
@@ -297,11 +290,11 @@ public class UIHandler : MonoBehaviour
         if (statsList.gamesPlayed > 0)
         {
             motivationLevel = rulesEvaluator(timeonTask, performance, numHelpRequest);
-            statsFile.SaveStats(false, true, motivationLevel, timeonTask, playTime); // 44
+            statsFile.SaveStats(false, true, motivationLevel, numHelpRequest, playTime); // 44
         }
         else
         {
-            statsFile.SaveStats(false, false, 1000f , timeonTask, playTime); // 44
+            statsFile.SaveStats(false, false, 1000f , numHelpRequest, playTime); // 44
         }
 
         gameOverPanel.SetTrigger("open");

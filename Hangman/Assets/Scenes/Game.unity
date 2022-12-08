@@ -1925,7 +1925,6 @@ GameObject:
   - component: {fileID: 364292760}
   - component: {fileID: 364292761}
   - component: {fileID: 364292762}
-  - component: {fileID: 364292763}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2154,24 +2153,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  Low:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  Med:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  High:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   PerformanceLow:
     serializedVersion: 2
     m_Curve:
@@ -2312,40 +2293,40 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
-      inSlope: 0.004874666
-      outSlope: 0.004874666
+      value: 0
+      inSlope: 0
+      outSlope: 0
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.9993235
-      value: 1.0048714
-      inSlope: -0.031317584
-      outSlope: -0.031317584
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.3680762
-      outWeight: 0.3426372
-    - serializedVersion: 3
-      time: 1.4991482
-      value: -0.0024414062
-      inSlope: -0.022097005
-      outSlope: -0.022097005
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.38142765
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 3
+      time: 1.9889679
       value: 0
-      inSlope: 0.0016266805
-      outSlope: 0.0016266805
-      tangentMode: 34
+      inSlope: 0.012329163
+      outSlope: 0.012329163
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0
+      outWeight: 0.1937765
+    - serializedVersion: 3
+      time: 3.003609
+      value: 1
+      inSlope: 0.04835322
+      outSlope: 0.04835322
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.19972664
+    - serializedVersion: 3
+      time: 3.493357
+      value: 1.0024381
+      inSlope: 0.023164447
+      outSlope: 0.023164447
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.62263703
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -2405,40 +2386,40 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      value: 1
+      inSlope: 0.004874666
+      outSlope: 0.004874666
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1.9889679
+      time: 0.9993235
+      value: 1.0048714
+      inSlope: -0.031317584
+      outSlope: -0.031317584
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3680762
+      outWeight: 0.3426372
+    - serializedVersion: 3
+      time: 1.4991482
+      value: -0.0024414062
+      inSlope: -0.022097005
+      outSlope: -0.022097005
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.38142765
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3
       value: 0
-      inSlope: 0.012329163
-      outSlope: 0.012329163
-      tangentMode: 0
+      inSlope: 0.0016266805
+      outSlope: 0.0016266805
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.1937765
-    - serializedVersion: 3
-      time: 3.003609
-      value: 1
-      inSlope: 0.04835322
-      outSlope: 0.04835322
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.19972664
-    - serializedVersion: 3
-      time: 3.493357
-      value: 1.0024381
-      inSlope: 0.023164447
-      outSlope: 0.023164447
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.62263703
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -2542,19 +2523,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &364292763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364292757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc638f2afd61a8a4ab38505c5be08e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Wins: 0
 --- !u!1 &365578429
 GameObject:
   m_ObjectHideFlags: 0
