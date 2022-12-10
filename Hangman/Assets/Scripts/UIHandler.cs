@@ -52,8 +52,6 @@ public class UIHandler : MonoBehaviour
     public AnimationCurve NumRepeatTaskLow;
     public AnimationCurve NumRepeatTaskAve;
     public AnimationCurve NumRepeatTaskHigh;
-    public AnimationCurve temp;
-
     public AnimationCurve NumHelpRequestlow;
     public AnimationCurve NumHelpRequestmed;
     public AnimationCurve NumHelpRequesthigh;
