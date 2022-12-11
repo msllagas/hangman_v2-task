@@ -15,7 +15,7 @@ public class Stats
     public float actualML;
     public float totalML;
     public float centralTend;
-    public void SaveStats(bool hasWonGame, bool hasplayedGame, float calculatedML, int data, int playtime)
+    public void SaveStats(bool hasWonGame, float calculatedML, int data, int playtime)
     {
 
         StatsData statsList = SaveSystem.LoadStats();
@@ -25,12 +25,9 @@ public class Stats
         statsList.gamesPlayed = statsList.totalLosses + statsList.totalWins;
         statsList.winRatio = (float)Math.Round(((float)statsList.totalWins / statsList.gamesPlayed) * 100, 2);
 
-        if (hasplayedGame)
-        {
             statsList.totalML += 3f;
             statsList.actualML += calculatedML;
-            statsList.centralTend = (float)(statsList.actualML / (statsList.gamesPlayed - 1));
-        }
+            statsList.centralTend = (statsList.actualML /statsList.gamesPlayed);
 
         if (hasWonGame)
         {
