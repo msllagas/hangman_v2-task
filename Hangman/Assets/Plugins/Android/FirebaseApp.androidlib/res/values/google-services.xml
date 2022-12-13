@@ -6,6 +6,6 @@
   <string name="project_id" translatable="false">task-765c9</string>
   <string name="google_api_key" translatable="false">AIzaSyC5MIzdlcG1wQkLa-5_AVg1cHvRfqzwzA0</string>
   <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5MIzdlcG1wQkLa-5_AVg1cHvRfqzwzA0</string>
-  <string name="google_app_id" translatable="false">1:457823136456:android:7fa5e8cad1982c6b53d3fd</string>
+  <string name="google_app_id" translatable="false">1:457823136456:android:931b00c3e27673c553d3fd</string>
   <string name="default_web_client_id" translatable="false">457823136456-fe59halku9ei5ba26jfv02anlc5dsf8i.apps.googleusercontent.com</string>
 </resources>
