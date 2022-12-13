@@ -2288,39 +2288,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  temp:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1.9889679
-      value: 0
-      inSlope: 0.012329163
-      outSlope: 0.012329163
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.1937765
-    - serializedVersion: 3
-      time: 3
-      value: 1
-      inSlope: 0.04835322
-      outSlope: 0.04835322
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.19972664
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   NumHelpRequestlow:
     serializedVersion: 2
     m_Curve:
@@ -2472,13 +2439,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.038
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 179
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

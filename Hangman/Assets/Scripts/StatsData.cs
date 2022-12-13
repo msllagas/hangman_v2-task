@@ -25,6 +25,7 @@ public class StatsData
         totalLosses = statsdata.totalLosses;
         gamesPlayed = statsdata.gamesPlayed;
         winRatio = statsdata.winRatio;
+        fastestTime = statsdata.fastestTime;
         actualML = statsdata.actualML;
         totalML = statsdata.totalML;
         motivationLevel = statsdata.motivationLevel;
