@@ -17,6 +17,10 @@ public class StatsData
     public float motivationLevel;
     public int checker;
     public int fastestTime;
+    public bool isNewPlayer;
+    public string firstName;
+    public string lastName;
+    public string fullname;
 
     //public int points;
     public StatsData ( Stats statsdata )
@@ -30,6 +34,10 @@ public class StatsData
         totalML = statsdata.totalML;
         motivationLevel = statsdata.motivationLevel;
         checker = statsdata.checker;
+        isNewPlayer = statsdata.isNewPlayer;
+        firstName = statsdata.firstName;
+        lastName = statsdata.lastName;
+        fullname = statsdata.fullname;
     }
 
 }

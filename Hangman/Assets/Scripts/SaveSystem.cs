@@ -44,8 +44,15 @@ public static class SaveSystem
         }
         else
         {
-            Debug.LogError("Save file not found");
-            return null;
+            Stats stats = new Stats();
+            InitSave(stats);
+            //Debug.LogError("Save file not found");
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            StatsData data = formatter.Deserialize(stream) as StatsData;
+            stream.Close();
+            return data;
         }
     }
 }
