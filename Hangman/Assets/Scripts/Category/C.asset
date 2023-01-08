@@ -14,504 +14,82 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   wordList:
-  - LICENSE
   - NOTORIOUS
+  - FORFEIT
+  - STABLE
+  - GRUMPY
+  - BOASTED
+  - PRIOR
   - BURDEN
+  - ASSETS
+  - ADDICTIVE
+  - ASSIGNED
   - COMPROMISE
   - SHED
   - REVELATION
-  - COINCIDE
-  - HUMBLE
-  - SUSTAIN
-  - SWING
-  - SYNDROME
-  - TEMPT
-  - TACTIC
-  - TENANT
-  - TENDER
-  - TENURE
-  - TERMINATE
-  - TERRAIN
-  - TERRIFIC
-  - LICENSE
-  - NOTORIOUS
-  - BURDEN
-  - COMPROMISE
-  - SHED
-  - REVELATION
-  - COINCIDE
-  - HUMBLE
-  - SUSTAIN
-  - SWING
-  - SYNDROME
-  - TEMPT
-  - TACTIC
-  - TENANT
-  - TENDER
-  - TENURE
-  - TERMINATE
-  - TERRAIN
-  - TERRIFIC
-  - TESTIFY
-  - TESTIMONY
-  - TEXTURE
-  - THOUGHTFUL
-  - THREAD
-  - THRESHOLD
-  - THRILLED
-  - THRIVE
-  - TIDE
-  - TIGHTEN
-  - TIMBER
-  - TIMELY
-  - TOLERANCE
-  - TOLL
-  - TORTURE
-  - TOSS
-  - TOXIC
-  - TRADEMARK
-  - TRAIL
-  - TRAILER
-  - TRANSCRIPT
-  - TRANSIT
-  - TRAUMA
-  - TREATY
-  - TRIBUTE
-  - TRIUMPH
-  - TROPHY
-  - TUITION
-  - TRUSTEE
-  - TWIST
-  - UNDERLYING
-  - UNIFY
-  - UPCOMING
-  - UPGRADE
-  - UPHOLD
-  - UTILITY
-  - UTTERLY
-  - VACUUM
-  - VAGUE
-  - VANISH
-  - VARIABLE
-  - VARIED
-  - VEIN
-  - VENTURE
-  - VERBAL
-  - VERDICT
-  - VERIFY
-  - VERSE
-  - VERSUS
-  - VESSEL
-  - VETERAN
-  - VIABLE
-  - VIBRANT
-  - VICE
-  - VICIOUS
-  - VILLAGER
-  - VIOLATE
-  - VIOLATION
-  - VIRTUE
-  - VOCAL
-  - VOW
-  - VULNERABLE
-  - WARD
-  - WAREHOUSE
-  - WARFARE
-  - WEAKEN
-  - WARRANT
-  - WARRIOR
-  - WEAVE
-  - WEED
-  - WIDEN
-  - WHIP
-  - WIDOW
-  - WIDTH
-  - WILLINGNESS
-  - WIPE
-  - WIT
-  - WITHDRAWAL
-  - WORKOUT
-  - WORSHIP
-  - WORTHWHILE
-  - WORTHY
-  - YELL
-  - YIELD
-  - YOUNGSTER
-  - ACCEDE
-  - ACCESSION
-  - ACCLAIM
-  - ACCOLADE
   - PITCH
   - WHIFF
   - WANE
   - COMPLIMENTS
   - DISPOSABLE
+  - COINCIDE
+  - HUMBLE
   - LEGIBLE
   - COMMOTION
   - CRAVING
   - EVICTED
   - CONDONE
-  - APLOMB
-  - APOGEE
-  - ASPIRANT
-  - ATTAINABLE
-  - AUGUR
-  - AUSPICIOUS
-  - BEST
-  - BHADRALOK
-  - BLUEPRINT
-  - BOAST
-  - BONANZA
-  - BREAKOUT
-  - BUCCANEER
-  - CAPSTONE
-  - CIRCUMVENT
-  - CLINCH
-  - CRUISE
-  - DIVERSIFY
-  - DYNAMISM
-  - EFFECTUAL
-  - EQUAL
-  - FAUSTIAN
-  - FELICITATE
-  - FOOLPROOF
-  - FOOTHOLD
-  - FORTUITOUS
-  - FRUITION
-  - GEARED
-  - GLITTERING
-  - GLOAT
-  - GLORIOUSLY
-  - GRAIL
-  - GRASP
-  - HOTSHOT
-  - HUGE
-  - INROAD
-  - INFALLIBLE
-  - JELL
-  - JUBILANT
-  - KUDOS
-  - LAUREATE
-  - LAUREL
-  - LIFEBLOOD
-  - MAGNATE
-  - MAHURAT
-  - MAINSTAY
-  - MARVEL
-  - METTLE
-  - METEORIC
-  - NIRVANA
-  - NOTCH
-  - NURTURE
-  - OPPORTUNE
-  - OUTPERFORM
-  - OUTSTRIP
-  - OVERDOG
-  - PERTINACITY
+  - SUSTAIN
+  - TESTIMONY
+  - TOXIC
+  - TRAUMA
+  - WARRIOR
+  - WORSHIP
   - PHENOMENON
-  - PINNACLE
-  - PRACTICABLE
-  - PROPITIOUS
-  - PROSPECT
-  - RUGGED
-  - SMUG
-  - STRIVING
-  - SURMOUNT
-  - SYNERGY
-  - TYCOON
-  - VANITY
-  - VINTAGE
-  - WALTZ
-  - WIZARDRY
-  - WUNDERKIND
-  - ZENITH
-  - CRISP
-  - CYCLONE
-  - DELUGE
-  - GUST
-  - AZURE
-  - AUBURN
-  - ALBINO
-  - ALLURING
-  - BEWITCHING
-  - BLOTCH
-  - BOUFFANT
-  - CADAVEROUS
-  - CALLUS
-  - ABOMINABLE
-  - ACRIMONIOUS
-  - ADRENALINE
-  - BLITHE
-  - BOGGLE
-  - BOREDOM
-  - CRESTFALLEN
-  - DEJECTED
-  - DROWSY
-  - FLINCH
-  - GRIEVE
-  - GUZZLE
-  - HOSTILE
-  - IDYLL
-  - ILLUMINATE
-  - INFATUATED
-  - LAMENT
-  - LOATHSOME
-  - MONOTONOUS
-  - PARANOIA
-  - PETRIFY
-  - SEETHE
-  - TWINKLE
-  - VEXED
-  - WEARY
-  - WHIRL
   definition:
-  - '[v] to give somebody official permission to do, own, or use something'
-  - '[adj] well known for being bad'
-  - '[n] a duty, responsibility, etc. that causes worry, difficulty or hard work'
-  - '[v]  to give up some of your demands in order to reach an agreement after disagreeing with somebody'
-  - '[v] to take off a piece of clothing, coat or fur'
-  - '[n] a fact that people are made aware of, especially one that has been secret and is surprising'
-  - '[v]  (of two or more events) to take place at the same time'
-  - '[adj] showing you do not think that you are as important as other people'
-  - '[v] to provide enough of what somebody/something needs in order to live or exist'
-  - '[v] to move backwards or forwards or from side to side while hanging from a fixed point; to make something do this'
-  - '[n] a set of physical conditions that show you have a particular disease or medical problem'
-  - '[v] to attract somebody or make somebody want to do or have something, even if they know it is wrong'
-  - '[n] the particular method you use to achieve something'
-  - '[n] a person who pays rent for the use of a room, building, land, etc. to the person who owns it'
-  - '[adj] kind, gentle and loving'
-  - '[n] the period of time when somebody holds an important job, especially a political one; the act of holding an important job'
-  - '[v] to end; to make something end'
-  - '[n] used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.'
-  - '[adj] excellent; wonderful; very large; very great'
-  - '[v] to give somebody official permission to do, own, or use something'
-  - '[adj] well known for being bad'
-  - '[n] a duty, responsibility, etc. that causes worry, difficulty or hard work'
-  - '[v]  to give up some of your demands in order to reach an agreement after disagreeing with somebody'
-  - '[v] to take off a piece of clothing, coat or fur'
-  - '[n] a fact that people are made aware of, especially one that has been secret and is surprising'
-  - '[v]  (of two or more events) to take place at the same time'
-  - '[adj] showing you do not think that you are as important as other people'
-  - '[v] to provide enough of what somebody/something needs in order to live or exist'
-  - '[v] to move backwards or forwards or from side to side while hanging from a fixed point; to make something do this'
-  - '[n] a set of physical conditions that show you have a particular disease or medical problem'
-  - '[v] to attract somebody or make somebody want to do or have something, even if they know it is wrong'
-  - '[n] the particular method you use to achieve something'
-  - '[n] a person who pays rent for the use of a room, building, land, etc. to the person who owns it'
-  - '[adj] kind, gentle and loving'
-  - '[n] the period of time when somebody holds an important job, especially a political one; the act of holding an important job'
-  - '[v] to end; to make something end'
-  - '[n] used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.'
-  - '[adj] excellent; wonderful; very large; very great'
-  - '[v]  to make a statement that something happened or that something is true, especially as a witness in court'
-  - '[n] a thing that shows that something else exists or is true'
-  - '[n] the way a surface, substance or piece of cloth feels when you touch it, for example how rough, smooth, hard or soft it is'
-  - '[adj] showing that you think about and care for other people'
-  - '[n]  a thin string of cotton, wool, silk, etc. used for sewing or making cloth'
-  - '[n] the floor or ground at the bottom of a doorway, considered as the entrance to a building or room'
-  - '[adj] very excited and pleased'
-  - '[v] to become, and continue to be, successful, strong, healthy, etc.'
-  - '[n] a regular rise and fall in the level of the sea, caused by the pull of the moon and sun; the flow of water that happens as the sea rises and falls'
-  - '[v]  to hold or fix something more securely in position; to make something or become more difficult to move, open or separate'
-  - '[n] trees that are grown to be used in building or for making things'
-  - '[adj] happening at exactly the right time'
-  - '[n] the ability to suffer something, especially pain, difficult conditions, etc. without being harmed'
-  - '[n] the amount of damage or the number of deaths and injuries that are caused in a particular war, disaster, etc.'
-  - '[n] the act of causing somebody severe pain in order to punish them or make them say or do something'
-  - '[v] to throw something lightly or carelessly'
-  - '[adj] containing poison; poisonous'
-  - '[n] a name, symbol or design that a company uses for its products and that cannot be used by anyone else'
-  - '[n] a long line or series of marks that is left by somebody/something'
-  - '[n] a truck, or a container with wheels, that is pulled by another vehicle'
-  - '[n] a written or printed copy of words that have been spoken'
-  - '[n] the process of being moved or carried from one place to another'
-  - '[n] a mental condition caused by severe shock, stress or fear, especially when the harmful effects last for a long time'
-  - '[n] a formal agreement between two or more countries'
-  - '[n] an act, a statement or a gift that is intended to show your love or respect, especially for a dead person'
-  - '[n] a great success, achievement or victory'
-  - '[n] an object such as a silver cup that is given as a prize for winning a competition'
-  - '[n] the act of teaching something, especially to one person or to people in small groups'
-  - '[n] a person or an organization that has control of money or property that has been put into a trust for somebody'
-  - '[v] to bend or turn something into a particular shape'
-  - '[adj] important in a situation but not always easily noticed or stated clearly'
-  - '[v] to join people, things, parts of a country, etc. together so that they form a single unit'
-  - '[adj] going to happen soon'
-  - '[v] to make a machine, computer system, etc. more powerful and efficient; to start using a new and better version of a machine, system, etc.'
-  - '[v] to support something that you think is right and make sure that it continues to exist'
-  - '[n] a service provided for the public, for example an electricity, water or gas supply'
-  - '[adv] (used for emphasis) completely'
-  - '[n] a space that is completely empty of all substances, including all air or other gas'
-  - '[adj] not clear in a person’s mind'
-  - '[v] to disappear suddenly and/or in a way that you cannot explain'
-  - '[n] a situation, number or quantity that can vary or be varied'
-  - '[adj] of many different types'
-  - '[n] any of the tubes that carry blood from all parts of the body towards the heart'
-  - '[n] a business project or activity, especially one that involves taking risks'
-  - '[adj] spoken, not written'
-  - '[n] an official judgement made in court or at an inquest'
-  - '[v] to check that something is true or accurate'
-  - '[n] writing that is arranged in lines, often with a regular rhythm or pattern of rhyme'
-  - '[prep] used to show that two teams or sides are against each other'
-  - '[n] a tube that carries blood through the body of a person or an animal, or liquid through the parts of a plant'
-  - '[n] a person who has a lot of experience in a particular area or activity'
-  - '[adj] that can be done; that will be successful'
-  - '[adj] full of life and energy'
-  - '[n] behaviour that is evil or immoral; a quality in somebody’s character that is evil or immoral'
-  - '[adj] violent and cruel'
-  - '[n] a person who lives in a village'
-  - '[v] to go against or refuse to obey a law, an agreement, etc.'
-  - '[n] the act of going against or refusing to obey a law, an agreement, etc.'
-  - '[n] behaviour or attitudes that show high moral standards'
-  - '[adj] telling people your opinions or protesting about something loudly and with confidence'
-  - '[v] to make a formal and serious promise to do something or a formal statement that is true'
-  - '[adj] weak and easily hurt physically or emotionally'
-  - '[n] a separate room or area in a hospital for people with the same type of medical condition'
-  - '[n] a building where large quantities of goods are stored, especially before they are sent to shops to be sold'
-  - '[n] the activity of fighting a war, especially using particular weapons or methods'
-  - '[v] to make somebody/something less strong or powerful; to become less strong or powerful'
-  - '[n] a legal document that is signed by a judge and gives the police authority to do something'
-  - '[n] a person who fights in a battle or war'
-  - '[v] to make cloth, a carpet, a basket, etc. by crossing threads or narrow pieces of material across, over and under each other by hand or on a machine called a loom'
-  - '[n] a wild plant growing where it is not wanted, especially among crops or garden plants'
-  - '[v]  to become wider; to make something wider'
-  - '[v]  to hit a person or an animal hard with a whip, as a punishment or to make them go faster or work harder'
-  - '[n] a woman whose husband or wife has died and who has not married again'
-  - '[n] the measurement from one side of something to the other; how wide something is'
-  - '[n] ​the quality of being happy and ready to do something'
-  - '[v] to rub something against a surface, in order to remove dirt or liquid from it; to rub a surface with a cloth, etc. in order to clean it'
-  - '[n] the ability to say or write things that are both clever and humorous'
-  - '[n]  the act of taking an amount of money out of your bank account'
-  - '[n] a period of physical exercise that you do to keep fit'
-  - '[n]  the practice of showing respect for God or a god, by saying prayers, singing with others, etc.; a ceremony for this'
-  - '[adj] important, pleasant, interesting, etc.; worth spending time, money or effort on'
-  - '[adj] having the qualities that deserve somebody/something'
-  - '[v] to shout loudly, for example because you are angry, excited, frightened or in pain'
-  - '[n] the total amount of crops, profits, etc. that are produced'
-  - '[n] a young person or a child'
-  - '[v] to agree to a request, proposal, etc.'
-  - '[n] the act of getting a position of rank or power'
-  - '[v] to praise or welcome somebody/something publicly'
-  - '[n] praise or an award for an achievement that people admire'
-  - '[n] talk or arguments used by a person trying to sell something or persuade people to do something'
-  - '[n]  (in golf/baseball) an unsuccessful attempt to hit the ball'
-  - '[v]  (of the moon) to appear slightly smaller each day after being round and full'
-  - '[n] polite words or good wishes, especially when used to express praise and approval'
-  - '[adj] made to be thrown away after use'
-  - '[adj] (of written or printed words) clear enough to read'
-  - '[n] sudden noisy and confused activity or excitement'
-  - '[n] a strong desire for something'
-  - '[v]  to force somebody to leave a house or land, especially when you have the legal right to do so'
-  - '[v] to accept behaviour that is morally wrong or to treat it as if it were not serious'
-  - '[n] if somebody does something with this, they do it in a confident and successful way, often in a difficult situation'
-  - '[n] the highest point of something, where it is greatest or most successful'
-  - '[adj] wanting to start the career or activity that is mentioned'
-  - '[adj] that you can achieve'
-  - '[v] to be a sign that something will be successful or not successful in the future'
-  - '[adj] showing signs that something is likely to be successful in the future; promising'
-  - '[v] to defeat or be more successful than somebody'
-  - '[n] rich, successful, well-educated people, usually from Bangladesh or West Bengal, who are part of a particular social class and considered to have high social status'
-  - '[n] a photographic print of a plan for a building or a machine, with white lines on a blue background'
-  - '[n]  something that a person talks about in a very proud way, often to seem more important or clever'
-  - '[n] a situation in which people can make a lot of money or be very successful'
-  - '[adj] suddenly extremely popular and successful; establishing reputation'
-  - '[n] (in the past) a sailor who attacked ships at sea and stole from them; pirate'
-  - '[n] the best and final thing that someone achieves, thought of as making their career or life complete'
-  - '[v] to find a way of avoiding a difficulty or a rule'
-  - '[v] to succeed in achieving or winning something'
-  - '[n] a journey by ocean, visiting different places, especially as a vacation'
-  - '[v] to change or to make something change so that there is greater variety'
-  - '[n] energy and enthusiasm to make new things happen or to make things succeed'
-  - '[adj] (of things, not people) producing the result that was intended'
-  - '[adj] the same in size, quantity, value, etc. as something else'
-  - '[adj] an agreement in which someone agrees to do something bad or dishonest, in return for money, success, or power'
-  - '[v] to tell somebody that you are pleased about their success or achievements'
-  - '[adj] (of a plan, machine, method, etc.) very well designed and easy to use so that it cannot fail and you cannot use it wrongly'
-  - '[n] a strong position in a business, profession, etc. from which somebody can make progress and achieve success'
-  - '[adj] happening by chance, especially a lucky chance that brings a good result'
-  - '[n] the successful result of a plan, a process or an activity'
-  - '[adj] designed or organized to achieve a particular purpose, or to be suitable for a particular group of people'
-  - '[adj] very impressive and successful'
-  - '[v] to show that you are happy about your own success or  failure of others, in an unpleasant way'
-  - '[adv] in a way that deserves or brings great success and makes somebody/something famous'
-  - '[n]  the cup or bowl believed to have been used by Jesus Christ before he died, that became a holy thing that people wanted to find'
-  - '[v] to take a strong hold of somebody/something'
-  - '[n] a person who is extremely successful in their career or at a particular sport'
-  - '[adj] very successful'
-  - '[n]  something that is achieved, especially by reducing the power or success of something else'
-  - '[adj] that never fails; always doing what it is supposed to do'
-  - '[v] (of two or more people) to work well together; to form a successful group'
-  - '[adj] feeling or showing great happiness because of a success'
-  - '[n] the praise and honour that goes with a particular achievement or position'
-  - '[n] a person who has been given an official honour or prize for something important they have achieved'
-  - '[n] a bush or tree with dark, smooth, shiny leaves that remain on the bush and stay green through the year'
-  - '[n] the thing that keeps something strong and healthy and is necessary for successful development'
-  - '[n] a person who is rich, powerful and successful, especially in business'
-  - '[n] a time to begin a project, hold a ceremony, etc. that is likely to bring success in the future'
-  - '[n] a person or thing that is the most important part of something and enables it to exist or be successful'
-  - '[n] wonderful results or things that have been achieved'
-  - '[n] the ability and determination to do something successfully despite difficult conditions'
-  - '[adj] achieving success very quickly'
-  - '[n] the ability and determination used do sides successfully despite difficult conditions'
-  - '[n] a level on a scale, often marking quality or achievement'
-  - '[v] to help somebody/something to develop and be successful'
-  - '[adj] (of a time) suitable for doing a particular thing, so that it is likely to be successful'
-  - '[v] to achieve better results than somebody/something'
-  - '[v] to be faster, better or more successful than somebody you are competing against'
-  - '[n] a person, organization or country that is successful or in a stronger position than others, especially when they seem to have an unfair advantage'
-  - '[n] the quality of being determined to achieve a particular aim despite difficulties or opposition'
-  - '[n] a fact or an event in nature or society, especially one that is not fully understood'
-  - '[n] the most important or successful part of something'
-  - '[adj] able to be done; likely to be successful'
-  - '[adj]  likely to produce a successful result'
-  - '[n] a person who is likely to be successful in a competition or in a particular career'
-  - '[adj] (face) having strong, attractive features'
-  - '[adj] looking or feeling too pleased about something you have done or achieved'
-  - '[n]  the act of trying very hard to achieve something'
-  - '[v] to deal successfully with a difficulty; overcome'
-  - '[n] ​the extra energy, power, success, etc. that is achieved by two or more people, companies or elements working together, instead of on their own'
-  - '[n] a person who is successful in business or industry and has become rich and powerful'
-  - '[n] the fact of being too proud of your own appearance, abilities or achievements'
-  - '[n] the wine that was produced in a particular year or place; the year in which it was produced'
-  - '[n] a dance in which two people dance together to a regular rhythm; a piece of music for this dance'
-  - '[n] a very impressive and clever achievement; great skill'
-  - '[n] a person who is very successful at a young age'
-  - '[n] the highest point that the sun or moon reaches in the sky, directly above you'
-  - '[adj] (of paper or cloth) fresh and clean; new and slightly stiff without any folds in it'
-  - '[n] a weather condition in which the pressure of the air becomes lower, often causing wind and rain'
-  - '[n] a severe flood; a sudden very heavy fall of rain'
-  - '[v] (of the wind) to suddenly blow very hard'
-  - '[adj] bright blue in colour like the sky'
-  - '[adj]​(of hair) red-brown in colour'
-  - '[n] a person or an animal that is born with no pigment in the hair or skin, which are white, or in the eyes, which are pink'
-  - '[adj] attractive and exciting in a mysterious way'
-  - '[adj] so beautiful or interesting that you cannot think about anything else'
-  - '[n] a mark, usually not regular in shape, on skin, plants, material, etc.'
-  - '[adj] (of a person’s hair) in a style that raises it up and back from the head in a high round shape'
-  - '[adj] (of a person) extremely pale, thin and looking ill'
-  - '[n] an area of thick hard skin on a hand or foot, usually caused by rubbing'
-  - '[adj] extremely unpleasant and causing horror'
-  - '[adj] (of an argument, etc.) angry and full of strong bitter feelings and words'
-  - '[n] a substance produced in the body when you are excited, afraid or angry. It makes the heart beat faster and increases your energy and ability to move quickly.'
-  - '[adj] showing you do not care or are not anxious about what you are doing'
-  - '[v] to be slow to do or accept something because you are surprised or shocked by it'
-  - '[n] he state of feeling bored; the fact of being very boring'
-  - '[adj] sad and disappointed because you have failed and you did not expect to'
-  - '[adj] unhappy and disappointed'
-  - '[adj] tired and wanting to sleep'
-  - '[v] to make a sudden movement with your face or body as a result of pain, fear, surprise, etc.'
-  - '[v] to feel very sad, especially because somebody has died'
-  - '[v]  to drink something quickly and in large amounts. '
-  - '[adj] making it difficult for something to happen or to be achieved'
-  - '[n] a happy and peaceful place, event or experience, especially one connected with the countryside'
-  - '[v] to shine light on something'
-  - '[adj]  having a very strong feeling of love or attraction for somebody/something so that you cannot think clearly and in a sensible way'
-  - '[v] to have or express very sad feelings about somebody/something'
-  - '[adj] extremely unpleasant; disgusting'
-  - '[adj] never changing and therefore boring'
-  - '[n] the belief that other people dislike or want to harm you, when there is no evidence or reason for this'
-  - '[v] to make somebody feel extremely frightened'
-  - '[v] to be extremely angry about something but to try not to show other people how angry you are'
-  - '[v] to shine with a light that keeps changing from bright to pale to bright again'
-  - '[adj] a problem that is difficult to deal with'
-  - '[adj] very tired, especially after you have been working hard or doing something for a long time'
-  - '[v]  to move, or make somebody/something move, around quickly in a circle or in a particular direction'
+  - '[adj] used to describe people who are widely known and viewed unfavorably for
+    their actions, such as describing criminals'
+  - '[v] To lose or give up (something) on account of an offense, error, or failure
+    to fulfill an agreement'
+  - '[adj] implies lastingness because of resistance to being overturned or displaced'
+  - '[adj] being in a slightly angry mood because you are annoyed at something or
+    are feeling tired'
+  - '[v] (past tense) to speak too proudly or happily about what you have done or
+    what you own'
+  - '[adj] an adjective that means previous when used alone'
+  - '[n] Something that weighs you down. Usually a worry or a sore point you do not
+    share with close friends'
+  - '[n] (plural) property owned by a person or company, regarded as having value
+    and available to meet debts, commitments, or legacies'
+  - '[adj] (of a substance or activity) causing or likely to cause someone to become
+    addicted'
+  - '[v] a person to whom an assignment is made'
+  - '[v]  a way of reaching an agreement in which each person or group gives up something
+    that was wanted in order to end an argument'
+  - '[v] to peel to cast (a natural bodily covering or appendage) aside'
+  - '[n] a surprising and previously unknown fact, especially one that is revealed
+    in a dramatic way'
+  - '[n] the degree of highness or lowness of a tone'
+  - '[n] a smell that is only smelled briefly or slightly'
+  - '[v] decrease in vigor, power, or extent; become weaker'
+  - '[n] politely congratulate or praise someone'
+  - '[adj] something designed to be thrown away after use'
+  - '[v]  to happen at the same time'
+  - '[adj] not proud or not arrogant'
+  - '[adj] capable of being read or deciphered'
+  - '[n] a state of confused and noisy disturbance'
+  - '[n] a strong feeling of wanting something'
+  - '[v] the removal of a tenant from rental property by the landlord.'
+  - '[v] accept and allow a behavior that is considered morally wrong or offensive
+    to continue'
+  - '[v] to give support or relief to or to supply with nourishment'
+  - '[n] a solemn declaration usually made by a witness under oath in response to
+    interrogation by a lawyer'
+  - '[n] containing or being poisonous material especially when capable of causing
+    serious injury or death'
+  - '[n] an emotional response to a distressing event or series of events, such as
+    accidents, rape, or natural disasters.'
+  - '[n] a brave or experienced soldier or fighter'
+  - '[n] a form of religious practice with its creed and ritual'
+  - '[n] something (such as an interesting fact or event) that can be observed and
+    studied and that typically is unusual or difficult to understand or explain fully'
